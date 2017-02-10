@@ -1,0 +1,33 @@
+<ion-view view-title="" class="map" cache-view="false">
+    <ion-nav-bar class="bar-stable bar-positive">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-title>{{ 'CARTE_ITINERAIRE' | translate }}: {{lieu.name}}</ion-nav-title>
+
+    <nav class="nav navbar menu" id="menu_map" style="min-height: inherit; margin-bottom: -49px">
+        <div class="navbar_top bar-positive" id="nav_title_map">NavBar</div>
+    </nav>
+
+
+    <div data-tap-disabled="false">
+        <div tap-on id="map"  style="position: fixed; top: 35px; bottom: 50px; left: 0; right: 0; " data-tap-disabled="true"></div>
+    </div>
+
+    <ion-content id="contentMap" >
+        <div  tap-on  id="leafletMapMonument" style="height: 100%;" data-tap-disabled="true"></div>
+    </ion-content>
+
+    <img id="mapMonumentLocationButtons" class='locationButtons' src="data/img/BlueDot.png"  onmouseover="this.style.cursor='pointer';" onmouseout="this.style.cursor='default';"
+         style="height: 7%; z-index: 100000; position: absolute; bottom: 70px; right: 15px;" ng-click="centerPosition()"/>
+
+    <img id="mapMonumenSatelliteButton" class='satelliteButton' src="data/img/leafletview.png"  onmouseover="this.style.cursor='pointer';" onmouseout="this.style.cursor='default';" style="
+    height: 7%;
+    z-index: 100000;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 70px;
+    left: 15px;
+    box-shadow: 0 0 5px 0;" ng-click="changeMapType()"/>
+</ion-view>

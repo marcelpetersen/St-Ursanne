@@ -1,0 +1,110 @@
+.lieu-detail {
+  .lieu-slider {
+    height: 300px;
+    .lieu-thumbnail-img {
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .commerce-slider-img {
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  }
+  .bandeau {
+    margin-bottom: 40px;
+    background-color: $dark_blue;
+    .title {
+      padding: 20px;
+      color: $light_grey;
+      h1 {
+        color: $light_grey;
+        font-size: $font_xl!important;
+      }
+      .ligne {
+        width: 100%;
+        padding: 20px 0;
+        margin-top: -10px;
+        .case {
+          width: 33.33%;
+          display: inline-block;
+          float: left;
+          .rond {
+            display: block;
+            background-color: $light_blue;
+            width: 75px;
+            height: 75px;
+            max-width: 90%;
+            margin: 0 auto;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px 0 $shadow_light;
+            .img-svg{
+              width: 50%;
+              height: 50%;
+              margin: 25%;
+              display: inline-block;
+              background-size: contain;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.grey{
+  background-color: $grey !important;
+}
+.no360 {
+  .pano-icon {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    background: url('../data/img/No360.svg') center no-repeat;
+    background-size: 101% !important;
+  }
+  opacity: 0.6;
+}
+.informations{
+  margin-bottom: 20px !important;
+  /*.item-icon-left{ //Apparement fixé dans les dernières versions des modules npm
+    padding-bottom:40px;
+  }*/
+}
+
+.empty-heart-icon {
+  background: url('../data/img/heart.svg') center no-repeat;
+}
+.full-heart-icon {
+  background: url('../data/img/heart-full.svg') center no-repeat;
+}
+.images-icon {
+  background: url('../data/img/images.svg') center no-repeat;
+}
+.compass-icon {
+  background: url('../data/img/compass.svg') center no-repeat;
+}
+.pano-icon {
+  background: url('../data/img/360.svg') center no-repeat;
+}
+.monument-icon {
+  background: url('../data/img/monument.svg') center no-repeat;
+}
+.filter2-icon {
+  background: url('../data/img/Filter2.svg') center no-repeat;
+  height: 36px;
+  position: absolute;
+  width: 50px;
+  z-index: 99999999999999999999999999999999999;
+  margin: 5px;
+}
+.filteraz-icon {
+  background: url('../data/img/FilterAZ.svg') center no-repeat;
+  height: 36px;
+  position: absolute;
+  width: 50px;
+  z-index: 999999999999999999999999999999999999;
+  margin: 5px;
+  margin-left: 50px
+}

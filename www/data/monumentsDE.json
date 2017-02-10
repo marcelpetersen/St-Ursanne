@@ -1,0 +1,539 @@
+{
+  "lieux":[
+    {
+      "id":0,
+      "name":"Schloss von Porrentruy",
+      "images":[
+        {"image": "1.jpg", "description":"Schloss von Porrentruy."},
+        {"image": "2.jpg", "description":"Schloss von Porrentruy."},
+        {"image": "3.jpg", "description":"Schloss von Porrentruy, nachts."},
+        {"image": "4.jpg", "description":"Hahnenturm."},
+        {"image": "5.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "7.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."},
+        {"image": "8.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Die imposante Anlage aus dem 13. Jahrhundert bestand ursprünglich aus mehr Gebäuden als heute. Um 1588 liess Fürstbischof Jakob Christoph  Blarer von Wartensee das Schloss vom Architekten Nicolas Frick zu einem grossen Teil wieder aufbauen. \n1697 fiel es einem Brand zum Opfer. Der Innenhof wird im Süden vom langgestreckten Pavillon der Prinzessin Christine abgeschlossen. Dieser verdankt seinen Namen den Besuchen der Tante von Ludwig dem XVI. und Äbtissin von Remiremont von 1773 bis 1775 Christine von Saxen.\nDas Schloss dient heute als kantonales Gerichtsgebäude.",
+      "address":"Rue du château 3",
+      "latitude" : 47.419318,
+      "longitude" : 7.072209,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Haupteingang",
+          "image": [
+            {"image": "1.jpg",  "description":"Wappen der Gemeinden des Bezirks Ajoie."}
+          ]
+        },
+        {
+          "titre":"Erster Stock",
+          "image": [
+            {"image": "2.jpg", "description":"Gang im ersten Stock ; enthält die Gemälde aller Fürstbischöfe."},
+            {"image": "12.jpg", "description":"Jakob Christoph Blarer von Wartensee (1542 - 1608)           Fürstbischof von 1575 bis 1608. Stellt im Lande die fürstbischöfliche Macht wieder her."},
+            {"image": "13.jpg", "description":"Johann Conrad von  Roggenbach (1618 - 1693) Fürstbischof von  1656 bis 1693. Führt eine neue Umsatz- und Verbrauchssteuer ein, das Ohmgeld (fr accise)"},
+            {"image": "14.jpg", "description":"Joseph-Wilhelm Rink de Baldenstein (1704 – 1762) Fürstbischof von 1744 bis 1762. Führt ein neues modernes Waldnutzungsrecht ein."},
+            {"image": "15.jpg", "description":"Simon Nicolaus von Montjoie (1692 – 1775) Fürstbischof von 1762 bis 1775. Volkszählung im Lande 1770 ; Erbauer der drei grössten Barock-Gebäude der Stadt."}
+          ]
+        },
+        {
+          "titre":"Gerichtssaal",
+          "image": [
+            {"image": "3.jpg", "description":"Ehemaliger Esssaal des Fürstbischofs, heute Audienzsaal des Kantonsgerichts."}
+          ]
+        },
+        {
+          "titre":"Türsturz",
+          "image": [
+            {"image": "4.jpg",  "description":"Türsturz ; trägt das Datum 1590, Endbaujahr des Hauptgebäudes, und das Monogramm von Niklaus Frick, Architekt aus Ulm."}
+          ]
+        },
+        {
+          "titre":"Kerker des Schlosses",
+          "image": [
+            {"image": "5.jpg", "description":"Eine Gefängiszelle zur Zeit der Fürstbischöfe."}
+          ]
+        },
+        {
+          "titre":"Pavillon der Prinzessin Christine",
+          "image": [
+            {"image": "8.jpg", "description":"Tor aus massivem Eichenholz zum Pavillon der Prinzessin Christine."},
+            {"image": "7.jpg", "description":"Die Türklinke trägt die Wappenzeichen des Fürstbischofs Blarer von Wartensee : der Hirtenstab seiner bischöflichen Würde und der Hahn aus seinem Familienwappen."}
+          ]
+        },
+        {
+          "titre":"Refousturm",
+          "image": [
+            {"image": "6.jpg",  "description":"Refousturm - stammt aus dem 13. Jh; 38 Meter hoch, Mauer 4.5 m dick, die Treppe befindet sich in der Mauerwand."},
+            {"image": "10.jpg",  "description":"Aussenansicht"},
+            {"image": "11.jpg",  "description":"Im Innern des Turmes."}
+          ]
+        },
+        {
+          "titre":"Schlosshof",
+          "image": [
+            {"image": "9.jpg", "description":"Von links nach rechts : Die Residenz, die Kanzlei und der Pavillon der Prinzessin Christine."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name":"Porte de France, Stadttor",
+      "images":[
+        {"image": "1.jpg", "description":"Stadttor, Aussenansicht."},
+        {"image": "2.jpg", "description":"Zifferblatt der Toruhr."},
+        {"image": "3.jpg", "description":"Stadttor vom Stadtinnern aus."},
+        {"image": "8.jpg", "description":"VITA NOSTRA BREVIS EST - Unser Leben ist kurz. Wie bei allen alten Uhren gibt es nur einen (Stunden)zeiger."},
+        {"image": "9.jpg", "description":"Lauffähiger Uhrenmechanismus aus dem Jahre 1711 mit Gewichtsantrieb."},
+        {"image": "4.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "5.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."},
+        {"image": "7.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Das 1563 auf mittelalterlichen Fundamenten erbaute Stadttor wurde  1744  umgebaut.\nZwei trutzige Rundtürme mit Kegeldächern flankieren das Tor, auf dessen Dach ein Glockenturm steht.",
+      "address":"Faubourg de France 32",
+      "latitude" : 47.419162,
+      "longitude" : 7.073581,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Fassade stadteinwärts",
+          "image": [
+            {"image": "1.jpg",  "description":"Stadttor."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"Creugenat",
+      "images":[
+        {"image": "1.jpg", "description":"Flusslauf bei Hochwasser"},
+        {"image": "6.jpg", "description":"Creugenat im Sommer."},
+        {"image": "7.jpg", "description":" Hochwasser führend."},
+        {"image": "8.jpg", "description":"Creugenat im Sommer."},
+        {"image": "9.jpg", "description":"Hochwasser führend."},
+        {"image": "4.jpg", "description":"Austrittsloch des Creugenat."},
+        {"image": "5.jpg", "description":"Austrittsloch des Creugenat (ca 20 m tief)."}
+      ],
+      "description":"Das Creugenat (Hexenloch) ist eine temporäre Karstquelle auf dem Gemeindegebiet von Chevenez.\nSie schüttet nach intensivem Regen oder bei Schneeschmelze Wasser aus, das in einem temporären Bach durch die Ebene von Courtedoux fliesst und schliesslich in Pruntrut in die Allaine mündet. \nDie Brüstung der Brücke über den Bach stammt aus dem 19. Jahrhundert und ist mit dem Stadtwappen verziert.",
+      "address":"P.Péquignat 42",
+      "latitude" : 47.418215,
+      "longitude" : 7.073126,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Apotropäische Kugel",
+          "image": [
+            {"image": "1.jpg",  "description":"Apotropäische Kugel, man glaubte, dass diese Kugeln das Unheil abwehren konnten."}
+          ]
+        },
+        {
+          "titre":"Creugenat",
+          "image": [
+            {"image": "2.jpg",  "description":"Creugenat im Sommer"},
+            {"image": "3.jpg",  "description":"Hochwasser führend"}
+          ]
+        },
+        {
+          "titre":"Apotropäische Kugel",
+          "image": [
+            {"image": "4.jpg",  "description":"Creugenat im Sommer"},
+            {"image": "5.jpg",  "description":"Hochwasser führend"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"Maison Turberg",
+      "images":[
+        {"image": "1.jpg", "description":"Maison Turberg nach Renovierung."},
+        {"image": "4.jpg", "description":"Schiessscharte mit Schlüsselloch."},
+        {"image": "2.jpg", "description":"Maison Turberg vor Renovierung."},
+        {"image": "3.jpg", "description":" Maison Turberg vor Renovierung."}
+      ],
+      "description":"Das Wohnhaus des ehemaligen Bürgermeisters Pierre-François Choullat wurde im 16. Jahrhundert an die alte Stadtmauer angebaut. Der imposante Bau steht prominent an der Rue Principale. Grosser Hof zur Strasse hin und vieleckiger Treppenturm aus dem Jahr 1569.",
+      "address":"Rue P.Péquignat 42",
+      "latitude" : 47.418260,
+      "longitude" : 7.073431,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":4,
+      "name":"Markthaus",
+      "images":[
+
+        {"image": "1.jpg", "description":"Fassade rue Pierre Péquignat."},
+        {"image": "2.jpg", "description":"Säulen und Lauben im Erdgeschoss."},
+        {"image": "3.jpg", "description":"Fassade rue Pierre Péquignat."},
+        {"image": "4.jpg", "description":"Fassade rue des Malvoisins."},
+        {"image": "5.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."}
+      ],
+      "description":"Fürstbischof  Simon-Nicolas  de  Montjoie liess das Gebäude zwischen 1766 und 1769 von Architekt Pierre-François  Paris neu erbauen, an der Stelle einer gotischen Markthalle und eines Gasthofs.  Ursprünglich  waren im Gebäude der Getreidemarkt und die Stadtwaage, ein Hotel für die Gäste des Fürstbischofs sowie ein Getreidemagazin untergebracht.\nHeute beherbergt das Hôtel des Halles das Amt für Kultur sowie die Kantonsbibliothek.",
+      "address":"Rue Pierre-Péquignat 9",
+      "latitude" : 47.417262,
+      "longitude" : 7.074008,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"BCJ",
+          "image": [
+            {"image": "1.jpg",  "description":"1922 erwirbt die Berner Kantonalbank im unteren Teil der Rue de la Poste (heute rue des Malvoisins) fünf ältere Gebäude und erbaut hier 1925 eine Zweigniederlassung."},
+            {"image": "2.jpg",  "description":"Hauseigentümer waren : Erben der Frau Lucie Chappuis-Parrat; Frau Joseph Hublard-Pape und ihre Kinder; Ehepaar Achille Chavanne-Mouche; Herr Léon Prêtre; Witwe Anna Tricano und Erben von Louise Tondeur-Carraz"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name":"Rathaus",
+      "images":[
+        {"image": "1.jpg", "description":"Frontansicht."},
+        {"image": "2.jpg", "description":"Ansicht von der rue du 23-Juin."},
+        {"image": "7.jpg", "description":"Unterer Teil der Grand-Rue"},
+        {"image": "8.jpg", "description":"Sicht auf die rue Pierre Péquignat"},
+        {"image": "3.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "4.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "5.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment"}
+      ],
+      "description":"Das Rathaus, ein barockes Gebäude an der Kreuzung der beiden grössten Strassen der Altstadt, ist ein Werk von Pierre-François Paris und  wurde zwischen 1761 und 1764 erbaut.\nSeine elegante Barockfassade ist mit vielen dekorativen Elementen verziert: Sockel mit Vasen, schmiedeeisernen Balustraden in den oberen Geschossen und einem schmiedeeisernen Tor im Stil Louis XVI.",
+      "address":"Rue Pierre-Péquignat 2",
+      "latitude" : 47.416910,
+      "longitude" : 7.074882,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Wildschwein von Porrentruy",
+          "image": [
+            {"image": "1.jpg", "description":"Der Keiler (Wildschwein), Wappen der Stadt Porrentruy."}
+          ]
+        },
+        {
+          "titre":"Eingangstor",
+          "image": [
+            {"image": "2.jpg", "description":"Am Schlussstein des Rundbogeneinganges ; Kopf der Minerva, Göttin der Weisheit, Hüterin des Wissens bei den Römern. Im ersten Stock, Balkon mit schmiedeeisernem Geländer."}
+          ]
+        },
+        {
+          "titre":"Stadtrat",
+          "image": [
+            {"image": "3.jpg", "description":"Stadtratsaal, die legislative Behörde."}
+          ]
+        },
+        {
+          "titre":"Accueil Jura Tourisme",
+          "image": [
+            {"image": "4.jpg", "description":"Accueil Jura Tourisme"},
+            {"image": "5.jpg", "description":"Accueil Jura Tourisme"}
+          ]
+        },
+        {
+          "titre":"Méridienne de l'Hôtel de ville",
+          "image": [
+            {"image": "7.jpg", "description":"Meridian-Sonnenuhr"}
+          ]
+        },
+        {
+          "titre":"Die Uhr des Rathauses",
+          "image": [
+            {"image": "6.jpg", "description":"Die Uhr des Rathauses wurde 1413 wahrscheinlich als eine der ersten allgemein zugänglichen Grossuhren der Schweiz montiert. Um das Uhrwerk zu schmieren, teilte der Bürgerrat dem Uhrenmeister jedes Jahr ein Pfund Schmalz zu. Die Uhr war bis 1731 in Betrieb, danach wurde ein Handel mit Germain Gigandet abgeschlossen, um die ursprüngliche Uhr durch eine neue zu ersetzen. Dieses  Modell  von Uhrmacher Nicolas Berthod funktionierte allerdings nur bis 1759. Ein drittes Modell verschwand spurlos."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":6,
+      "name":"Hôtel-Dieu",
+      "images":[
+        {"image": "1.jpg", "description":"Aussenansicht auf das Eingangsportal."},
+        {"image": "2.jpg", "description":"Innenhof."},
+        {"image": "3.jpg", "description":"Fassade."},
+        {"image": "5.jpg", "description":"Monstranz vom Künsler aus Basel Martin Schongauer, 1488."},
+        {"image": "7.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Das Hôtel-Dieu im Stadtzentrum wurde 1761 von Pierre-François Paris, Architekt am Hof des Fürstbischofs des Bistums Basel, erbaut. Es ersetzte das erste Spital aus dem Jahr 1406. Das Hôtel-Dieu wurde bis 1956 als Spital genutzt, seit 1983 gehört es der Gemeinde Pruntrut, die es 1987 und 1996 restaurieren liess. Seit 1998 beherbergt es das Museum Hôtel-Dieu (Stadtmuseum) sowie eine Spitalapotheke aus der Mitte des 19. Jahrhunderts.",
+      "address":"Grand-Rue 5",
+      "latitude" : 47.416628,
+      "longitude" : 7.075158,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Schmiedeeisengitter",
+          "image": [
+            {"image": "1.jpg", "description":"Schmiedeeisernes Gitter mit lateinischer Inschrift « Zu Christus durch die Armen »."}
+          ]
+        },
+        {
+          "titre":"Porte d'entrée",
+          "image": [
+            {"image": "3.jpg", "description":"Treppenhaus im Eingangstrakt"},
+            {"image": "4.jpg", "description":"Treppenhaus im Eingangstrakt"},
+            {"image": "5.jpg", "description":"Schmiedeeisernes Gitter mit dem Wappen des Fürstbischofs Simon-Nicolas de Montjoie : Hirtenstab (geistliche Gewalt) und Schwert (weltliche Macht)"}
+
+          ]
+        },
+        {
+          "titre":"Apotheke",
+          "image": [
+            {
+              "image": "2.jpg",
+              "description": "Spitalapotheke, erbaut  1846-47 vom Kunsttischler Jean-Baptiste Carraz, Ahornholz mit Einlagen aus Kiefer-, Pflaumen-, Amaranthen- und Ebenholz ; Geschirr von 240 Töpfen aus Glas oder Limogesporzellan. Die Gefässe sind französisch beschriftet, da die betreuenden Nonnenschwestern lateinunkundig waren."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":7,
+      "name":"Samariterinbrunnen",
+      "images":[
+        {"image": "1.jpg", "description":"Samariterinbrunnen"},
+        {"image": "2.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Der Brunnen an der Ecke Rue de l’Eglise und Grand-Rue wurde 1564 von Laurent Perroud aus Cressier geschaffen. Auf dem Figurenbrunnen stehen sich Jesus und die Samariterin gegenüber, sie stützen sich locker auf einen Sims des Schafts. Oben auf dem Zwillingsschaft steht der Täuferknabe, er hält ein Kreuz und ein Schild mit dem Stadtwappen. Dies ist einer der drei Figurenbrunnen der Stadt",
+      "address":"Rue de l'Église 2",
+      "latitude" : 47.416444,
+      "longitude" : 7.075223,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":8,
+      "name":"St-Peterkirche",
+      "images":[
+        {"image": "1.jpg", "description":"Aussenansicht"},
+        {"image": "2.jpg", "description":"Orgelgehöuse im Empire-Stil (1813), klassische französische Pfarreiorgel, erbaut von François Callinet aus Rouffach (Elsass) ; Restauration 1983."},
+        {"image": "11.jpg", "description":"Kirschenchor"},
+        {"image": "12.jpg", "description":"Chorgestühl von  Hugues-Jean Monnot 1721-1724 errichtet"},
+        {"image": "13.jpg", "description":"Bronze-Taufstein von 1600, Werk des Pierre Guizinger ; geschnitzelte Holzabdeckung von Frédéric-Joseph Fueg 1759."},
+        {"image": "3.jpg", "description":"Ansicht  von der rue du Collège."},
+        {"image": "4.jpg", "description":"Chapelle Saint Michel."},
+        {"image": "7.jpg", "description":"Heutiges  Pfarrhaus, ehemaliges Haus der Familie von Reinach, später de Billieux ; erbaut im 18. Jh. In die Umfassungsmauer ist ein schmiedeeisernes Tor im Stil Louis XVI eingelassen"},
+        {"image": "9.jpg", "description":"Schmiedeisernes Gitter im Stil Louis XVI."},
+        {"image": "8.jpg", "description":"Über dem Türquerbalken, vergitterter Lichtausschnitt  mit dem Allianzwappen der Billieux und Tardy."},
+        {"image": "10.jpg", "description":"Der Pavillon, der die alte Stadtmauer in der Nähe der Kirche  Saint-Pierre  krönt,  wurde in den 1770er Jahren von Kanzler Billieux erbaut. Es handelt sich um einen kleinen Fachwerkbau mit französischem Cheminée, der zum Umland hin weit offen ist. Man kann sich gut vorstellen,  wie  sich  der  Kanzler in seinem Pavillon entspannte und die fantastische Aussicht auf die umliegende Landschaft genoss."},
+        {"image": "5.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.jpg", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Die Kirche wurde zwischen 1321 und 1333 erbaut und Ende des 14. Jahrhunderts an der Nordseite mit Seitenkapellen vergrössert. Auf der Südseite befindet sich die zwischen 1450 und 1487 erbaute Kapelle Saint-Michel.\nDie von 1978 bis 1982 durchgeführte Renovation gab der Kirche ihr ursprüngliches Aussehen zurück. Das Kirchenfenster im Chor ist ein Werk des Künstlers Jean-François Comment.\nHinter der Kirche erstreckt sich eine schöne Terrasse. Rechts steht ein kleines Fachwerkpavillon.",
+      "address":"Rue de l'Église 15",
+      "latitude" : 47.415792,
+      "longitude" : 7.076524,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":9,
+      "name":"Kirche St-Germain",
+      "images":[
+        {"image": "1.jpg", "description":"Kirche St‐Germain."},
+        {"image": "2.jpg", "description":"Kapelle an der Nordflanke, erbaut 1427 durch Bourquard von Tavannes."},
+        {"image": "3.jpg", "description":"Eingang zur Kirche St‐Germain."},
+        {"image": "4.jpg", "description":"Wandgemälde aus dem Jahr 1698 : Taufe im Jordanfluss."}
+      ],
+      "description":"Die Kirche Saint-Germain, erste Pfarrkirche von Pruntrut, befindet sich auf einem der ältesten besiedelten Orte der Stadt. Hier entstand im elften Jahrhundert ein erstes Heiligtum. Das heutige Gebäude wurde im frühen dreizehnten Jahrhundert erbaut und im Jahre 1427 um eine Kapelle auf der Nordflanke erweitert. Das Chorgewölbe mit den Kreuzrippen ist ein gutes Beispiel für den Übergang vom romanischen zum gotischen Stil. Das Kirchenschiff wurde im Jahre 1698 umgebaut und erweitert ; diese Epoche hat wichtige Gemälde auf den Innenwänden hinterlassen. Das ganze Gebäude wurde von 1958 bis 1961 restauriert. Man beachte die mehrfarbigen antiken Holz-Statuen, darunter eine Madonna mit Kind aus dem späten 14. Jahrhundert. Die Glasfenster sind Kopien der Fenster aus dem 15. Jahrhundert. Der Friedhof ist seit 1884 stillgelegt ; er enthält die Gräber zahlreicher jurassischen Prominenten.",
+      "address":"Rue de Courgenay 1",
+      "latitude" :47.416323,
+      "longitude" : 7.079366,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":10,
+      "name":"Jesuitenkollegium",
+      "images":[
+        {"image": "1.jpg", "description":"Osttrakt"},
+        {"image": "2.jpg", "description":"Westtrakt"},
+        {"image": "3.jpg", "description":"Ehemalige Jesuitenkirche, Stuckarbeit zwischen 1680 und 1720."},
+        {"image": "4.jpg", "description":"Orgel von Jürgen Ahrend, 1984."},
+        {"image": "5.jpg", "description":"Aussenansicht der ehemaligen Jesuitenkirche."},
+        {"image": "8.jpg", "description":"Ehemalige Jesuitenkirche"},
+        {"image": "6.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "7.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Jakob Christoph Blarer von Wartensee gründete 1591 das Jesuitenkollegium, das heute als Kantonsschule (Gymnasium) dient. Ursprünglich umfasste das von Niklaus Frick aus Ulm zwischen 1597 und 1607 erbaute Kollegium von Osten nach Westen die Jesuitenkirche, die Hauptgebäude und das Seminar. Hauptgebäude und Seminar sind heute mit einer Arkade verbunden, die zwischen 1935 und 1938 errichtet wurde.",
+      "address":"Place Blarer de Wartensee",
+      "latitude" : 47.414185,
+      "longitude" : 7.076415,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":11,
+      "name":"Botanischer Garten",
+      "images":[
+        {"image": "1.jpg", "description":"80 Rosenarten."},
+        {"image": "2.jpg", "description":"180 Schwertlilienarten."},
+        {"image": "3.jpg", "description":"Kakteen in den Triebhäusern des botanischen Gartens"},
+        {"image": "4.jpg", "description":"Kakteen in den Triebhäusern des botanischen Gartens"},
+        {"image": "5.jpg", "description":"Botanischer Garten und Kollegium vor 1935 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."}
+      ],
+      "description":"Der botanische Garten wurde 1792 angelegt, als einer der Ersten in der Schweiz. In der architektonisch bemerkenswerten Anlage können ein Arboretum mit jahrhundertealten Bäumen und eine Sammlung von über 80 Rosen- sowie über 180 Schwertlilienarten bestaunt werden. Im Juragarten gedeihen nicht weniger als 800 einheimische Pflanzenarten.",
+      "address":"Place Blarer-de-Wartensee 2",
+      "latitude" : 47.414001,
+      "longitude" : 7.075960,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Séquoia",
+          "image": [
+            {"image": "1.jpg", "description":"ca 50- jährige Sequoia aus Kalifornien."}
+          ]
+        },
+        {
+          "titre":"Thuya",
+          "image": [
+            {"image": "2.jpg", "description":"ca 150-jährige Thuya, zypressenartiger exotischer Baum."}
+          ]
+        },
+        {
+          "titre":"Cadran Solaire",
+          "image": [
+            {"image": "3.jpg", "description":"Lateinische Anschrift : Für Müssige verstreicht die Zeit langsam, schnell hingegen für Arbeitsame."},
+            {"image": "4.jpg", "description":"Sonnenuhren zeigen die wahre Sonnenzeit an ; diese entspricht nicht der Anzeige unserer Armbanduhren !"}
+          ]
+        },
+        {
+          "titre":"Cadran Solaire orienté plein sud",
+          "image": [
+            {"image": "6.jpg", "description":"Westorientierte Sonnenuhr."}
+          ]
+        },
+        {
+          "titre":"Cadran Solaire orienté plein sud",
+          "image": [
+            {"image": "5.jpg", "description":"In der Fassade ist das Einfallsloch ersichtlich, das auf der Meridiansonnenuhr im Innern den Lichtfleck erzeugt."},
+            {"image": "7.jpg", "description":"Am    ehemaligen    Jesuitenkollegium    ist im ersten Stock ein Horizontalmeridian angebracht. Er diente dazu, die Zeit anhand des Sonnenstands zu bestimmen. Aloyse von Billieux realisierte die Pläne und Berechnungen für den Meridian zwischen 1812 und 1814."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":12,
+      "name":"Turm des Seminars",
+      "images":[
+        {"image": "1.jpg", "description":"Turm des Seminars"},
+        {"image": "3.jpg", "description":"Erdgeschoss des Turmes"},
+        {"image": "4.jpg", "description":"Seminarskapelle vor Renovierung"},
+        {"image": "5.jpg", "description":"Seminarskapelle nach Renovierung"},
+        {"image": "6.jpg", "description":"Wappen vor Renovierung"},
+        {"image": "7.jpg", "description":"Renoviertes Wappen von Joseph-Wilhelm Rin von Baldenstein. Rechts : Schwert und Helm zeugen von seiner weltlichen Macht als Fürst des Deutschen Reiches ; links : Hirtenstab und Mitra symbolisieren seine Bischofswürde und dessen geistliche Macht."}
+      ],
+      "description":"Der 1614 erbaute Turm des Seminars ist ein hufeisenförmiges Bollwerk aus behauenem Stein. Er steht in der südwestlichen  Ecke des ehemaligen Seminars und ist Teil der Stadtbefestigung, die nach dem Bau des Jesuitenkollegiums erweitert werden musste. Im ersten Stock befindet sich die ehemalige Kapelle der Pagen und des  Pensionats, die Fürstbischof Joseph-Wilhelm Rinck von Baldenstein 1755 einrichten liess.",
+      "address":"Rue Thurmann",
+      "latitude" : 47.413819,
+      "longitude" : 7.075120,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":13,
+      "name":"Reformierte Kirche",
+      "images":[
+        {"image": "1.jpg", "description":"Reformierte Kirche"},
+        {"image": "2.jpg", "description":"Innenansicht"},
+        {"image": "3.jpg", "description":"Glasmalereien von Auguste Labouret und Henri Vermeille, 1937."},
+        {"image": "4.jpg", "description":"Renovierung  2013."}
+      ],
+      "description":"1890-1891 nach Plänen von Architekt Paul Reber Basel (Architekt des Tempels von Gebensdorf AG) gebaut.\nDas neugotische Gebäude wurde 1936, 1983 und nochmals im Jahr 2013 renoviert. Das Chorfenster aus Buntglas, signierten Augustus Labouret und Henry Vermeil (1937). Glockenturmsspitze und Wasserspeier sind aus Zink.\nDer Hauptkronleuchter (Durchm. 3 m / 300 kg) wurde renoviert und mit mundgeblasenen Globen bestückt ; 4 Kronleuchter (Durchm. 1,2 m) sind über den Bänken angebracht.\nChorgestühl und Kanzel stammen aus der alten englischen Kirche von Grindelwald, das 1970 teilweise durch einen Brand zerstört worden war. \n Die evangelisch-reformierte Kirchgemeinde von Pruntrut wurde 1816 gegründet und ist die älteste dieser Bezeichnung im Kanton. \nDiese Kirche steht auf dem Gelände des ehemaligen Annunziantinnen-Klosters. Die Annunziantinnen (Nonnen der Kongregation der Verkündigung) waren seit 1632 in Pruntrut angesiedelt und bauten im Jahr 1666 ein Kloster und eine 1670 eingeweihte Kirche. \nWährend der Französischen Revolution verliessen sie das Kloster, das später in ein Gefängnis umgewandelt wurde. Die letzten Reste des Klosters wurden im Jahr 1938 entfernt.",
+      "address":"Rue des Annonciades 16",
+      "latitude" : 47.415162,
+      "longitude" : 7.074893,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":14,
+      "name":"Hôtel de Gléresse",
+      "images":[
+
+        {"image": "1.jpg", "description":"Aussenansicht"},
+        {"image": "2.jpg", "description":"Westfassade, rue des Annonciades."},
+        {"image": "3.jpg", "description":"Eingangshalle"},
+        {"image": "4.jpg", "description":"erster Stock"},
+        {"image": "9.jpg", "description":"Wappen der Hauseigentümer : Kleeblätter für die Familie von Ligerz (Gléresse), umgekehrter Turm für die Familie Rink von Baldenstein"},
+        {"image": "5.jpg", "description":"Lesesaal in der Stiftung Archiv des ehemaligen Fürstbistums Basel"},
+        {"image": "6.jpg", "description":"Evangéliaire de St-Ursanne, Bibel, IX. Jh"},
+        {"image": "7.jpg", "description":"Graduel de Bellelay, Gebets- und Gesangbuch, XII. Jh"},
+        {"image": "8.jpg", "description":"Bestätigungsurkunde des Freiheitsbriefes von Pruntrut durch Fürstbischof Blarer von Wartensee, 1598"},
+        {"image": "10.jpg", "description":"Allianzvertrag vom 28. September 1579 zwischen Fürstbischof Blarer von Wartensee und den katholischen Eidgenossen."}
+      ],
+      "description":"Das Hôtel de Gléresse ist ein besonderes, dreistöckiges Stadtpalais mit Hof  und Garten, erbaut um 1750 von Giovanni Gaspare Bagnato für Konrad von Ligerz de Gléresse, den Gatten von Madeleine Rinck von Baldenstein, der Schwester des herrschenden Fürstbischofs. \nDas   Korbbogenportal   öffnet sich zur  Eingangshalle  mit  ihrem gedrückten stuckierten Gewölbe. Die Treppe ziert ein schmiedeeisernes Geländer mit Allianzwappen.",
+      "address":"Rue des Annonciades 10",
+      "latitude" : 47.415848,
+      "longitude" : 7.074589,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":15,
+      "name":"Goldkugelbrunnen",
+      "images":[
+        {"image": "1.jpg", "description":"Goldkugelbrunnen."},
+        {"image": "2.jpg", "description":""}
+      ],
+      "description":"Der Ende des 19. Jahrhunderts abgebaute Brunnen wurde 1991 an der Rue des Annonciades wieder neu errichtet. Dabei wurde der Originalschaft restauriert, und es wurden eine neue Stütze und eine neue Kugel geschaffen. Das Becken wurde vollkommen neu gebaut. \nDer Brunnen wurde in seinen früheren Massen und am früheren Standplatz wieder aufgebaut.",
+      "address":"Rue des Annonciades 9",
+      "latitude" : 47.416045,
+      "longitude" : 7.074655,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":16,
+      "name":"Bannerherrbrunnen",
+      "images":[
+        {"image": "1.jpg", "description":"Bannerherrbrunnen mit Aussicht auf die Rue des Malvoisins."},
+        {"image": "2.jpg", "description":"Bannerherrbrunnen."},
+        {"image": "3.jpg", "description":"Foto aus den Jahren 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "4.png", "description":"Zeichnung von Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Der Bannerherr- (oder Schweizer-)brunnen ist wie der Samariterin- Brunnen ein Werk von Laurent Perroud und wurde 1558 als erster Figurenbrunnen der Stadt errichtet.\nDie Statue des Eidgenossen zuoberst auf dem Schaft wurde 1814 zerstört und erst 1913 von Peter Heusch aus Strassburg mit dem jetzigen Bannerträger ersetzt. \nZu dessen Füssen sitzt ein Keiler, das Wappentier von Pruntrut.",
+      "address":"Rue des Malvoisins 1",
+      "latitude" : 47.416619,
+      "longitude" : 7.074161,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":17,
+      "name":"Die Ehgraben",
+      "images":[
+        {"image": "1.jpg", "description":""},
+        {"image": "2.jpg", "description":""}
+      ],
+      "description":"Schmales Gässchen zwischen zwei parallelen Häuserreihen. Sie dienten oft als offener Abwasserkanal. Dies konnte Typhusepidemien mit sich bringen. Dr. Alfred Ceppi prangerte 1881 diese Umstände an. Darauf wurden diese Gässchen überdeckt und Abwasserleitungen gebaut. \nIm Rahmen des 'geheimen Rundwegs' oder in Begleitung eines Stadtführers zugänglich.",
+      "address":"Grand-rue 18",
+      "latitude" : 47.416085,
+      "longitude" : 7.075170,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    }
+  ]
+}

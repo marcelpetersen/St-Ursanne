@@ -1,0 +1,29 @@
+<ion-view view-title="{{ 'CARTE_MENU_TITLE' | translate }}" class="map" cache-view="false">
+    <ion-nav-bar class="bar-stable bar-positive">
+        <ion-nav-back-button>
+
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <div  id="map"  tap-on data-tap-disabled="true" style="position: fixed; top: 35px;  left: 0; right: 0;"></div>
+
+    <img id='mapLocationButtons' class='greyLocationButtons' src="data/img/GreyDot.png"  onmouseover="this.style.cursor='pointer';" onmouseout="this.style.cursor='default';" style="height: 7%; z-index: 100000; position: absolute; bottom: 80px; right: 15px;" ng-click="centerPosition()"/>
+
+    <img id='mapSatelliteButton' class='satelliteButton' src="data/img/leafletview.png"  onmouseover="this.style.cursor='pointer';" onmouseout="this.style.cursor='default';" style="
+    height: 7%;
+    z-index: 100000;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 70px;
+    left: 15px;
+    box-shadow: 0px 0px 5px 0px;" ng-click="changeMapType()"/>
+
+    <ion-content id="contentMap">
+        <leaflet  id="leafletMap" tap-on maxBounds="maxBounds" bounds="bounds" center="porrentruy" controls="controls" height="100%" tiles="tiles" markers="markersLeaflet" data-tap-disabled="true"></leaflet>
+    </ion-content>
+
+    <nav class="nav navbar menu" id="menu_map" style="min-height: inherit; margin-bottom: -49px">
+        <div class="navbar_top bar-positive" id="nav_title_map">NavBar</div>
+    </nav>
+</ion-view>
+

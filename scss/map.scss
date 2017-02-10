@@ -1,0 +1,37 @@
+.map{
+  .scroll{
+    height: 100%;
+  }
+
+  #map{
+    height:100%;
+    width:100%;
+  }
+}
+
+.map-slider{
+  margin-bottom: 49px!important;
+}
+
+.greyLocationButtons {
+  opacity: 0.6;
+}
+
+.popup-body {
+  padding: 10px;
+  overflow: auto !important;
+}
+
+#menu_map {
+  z-index :999999 !important;
+}
+
+.param_map {
+  position: absolute;
+  top: 6px;
+  right: 13px;
+  z-index: 10;
+  color: $light_grey;
+  height: 43px;
+  font-size: 32px;
+}

@@ -1,0 +1,59 @@
+<krpano version="1.18" onstart="startup();">
+
+	<include url="../skin/vtourskin.xml" />
+
+	<!-- set skin settings: bingmaps? gyro? thumbnails? tooltips? -->
+	<skin_settings maps="false"
+				   maps_type="bing"
+				   maps_bing_api_key=""
+				   maps_zoombuttons="false"
+				   gyro="true"
+				   title="true"
+				   thumbs="true"
+				   thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+				   thumbs_opened="false"
+				   thumbs_text="false"
+				   thumbs_dragging="true"
+				   thumbs_onhoverscrolling="false"
+				   thumbs_scrollbuttons="false"
+				   thumbs_scrollindicator="false"
+				   thumbs_loop="false"
+				   tooltips_thumbs="false"
+				   tooltips_hotspots="false"
+				   tooltips_mapspots="false"
+				   loadscene_flags="MERGE"
+				   loadscene_blend="BLEND(0.5)"
+				   controlbar_offset="20"
+			/>
+
+	<!-- set optional skin logo url -->
+	<layer name="skin_logo" url="" scale="0.25" opened_onclick="" />
+
+
+	<action name="startup">
+		if(startscene === null, copy(startscene,scene[0].name));
+		loadscene(get(startscene), null, MERGE);
+
+	</action>
+
+
+	<scene name="panorama_hotel_dieu" onstart="" thumburl="../panos/PANO_6.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view vlookatmin="-70" vlookatmax="70" hlookat="0" vlookat="0" fovtype="MFOV" fov="120"  fovmin="40" fovmax="120" limitview="offrange" />
+
+		<preview url="../panos/PANO_6.tiles/preview.jpg" />
+
+		<image>
+			<cube url="../panos/PANO_6.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="../panos/PANO_6.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<hotspot name="spot1" url="../skin/hotspot-blue.png" ath="177.506" atv="-5.272" onclick="js(window.loadDetailPano(0));" />
+		<hotspot name="spot2" url="../skin/hotspot-blue.png" ath="-5.346" atv="3.669" onclick="js(window.loadDetailPano(1));" />
+		<hotspot name="spot3" url="../skin/hotspot-blue.png" ath="37.500" atv="-1.228" onclick="js(window.loadDetailPano(2));" />
+
+	</scene>
+
+</krpano>

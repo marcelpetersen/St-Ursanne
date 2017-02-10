@@ -1,0 +1,19 @@
+.hideDown .tab-nav{
+  -webkit-transition: all $animation_duration $animation_type;
+  -moz-transition: all $animation_duration $animation_type;
+  -ms-transition: all $animation_duration $animation_type;
+  -o-transition: all $animation_duration $animation_type;
+  transition: all $animation_duration $animation_type;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.showUp .tab-nav{
+  visibility: visible;
+  -webkit-transition: all $animation_duration $animation_type;
+  -moz-transition: all $animation_duration $animation_type;
+  -ms-transition: all $animation_duration $animation_type;
+  -o-transition: all $animation_duration $animation_type;
+  transition: all $animation_duration $animation_type;
+  opacity: 1;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html ng-app="starter">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic-platform-web-client/dist/ionic.io.bundle.min.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+    <!-- JQuery -->
+    <script src="lib/jQuery/dist/jquery.min.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/utils.js"></script>
+    <script src="js/angular-ios9-uiwebview.patch.js"></script>
+    <script src="lib/angular-translate/angular-translate.js"></script>
+    <script src="lib/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js"></script>
+    <script src="js/slideupmenu.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/controllers/mainController.js"></script>
+    <script src="js/controllers/tabsController.js"></script>
+    <script src="js/controllers/menuController.js"></script>
+    <script src="js/controllers/lieuxController.js"></script>
+    <script src="js/controllers/lieuDetailController.js"></script>
+    <script src="js/controllers/mapController.js"></script>
+    <script src="js/controllers/mapMonumentController.js"></script>
+    <script src="js/controllers/discoverController.js"></script>
+    <script src="js/controllers/panoramaController.js"></script>
+    <script src="js/controllers/historyController.js"></script>
+    <script src="js/controllers/parametresController.js"></script>
+    <script src="js/services.js"></script>
+    <script src="panoramas/tour.js"></script>
+    <script>
+        var ios = /iPad|iPhone|iPod/.test(navigator.platform);
+    </script>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVn-026GTjpV1Va-CRm5ikPYJS7_Oc2oI&amp;sensor=true"></script>
+
+
+    <!-- Leaflet -->
+    <script src="lib/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+    <script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
+    <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="lib/leaflet-routing-machine/dist/leaflet-routing-machine.css">
+
+    <script src="lib/leaflet/dist/leaflet.js"></script>
+    <script src="lib/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+    <script src="lib/lrm-graphhopper.js"></script>
+    <link href="css/ionic.app.min.css" rel="stylesheet">
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.min.css" rel="stylesheet">
+
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="lib/photoswipe/dist/photoswipe.css">
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+       In the folder of skin CSS file there are also:
+       - .png and .svg icons sprite,
+       - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="lib/photoswipe/dist/default-skin/default-skin.css">
+  </head>
+  <body ng-controller="MainCtrl">
+
+      <ion-nav-view></ion-nav-view>
+
+<ion-tabs ng-class="showTabs" class="tabs-positive" ng-controller="TabsCtrl">
+    <ion-tab style="display:none;" href="#/home" class="tab-item" icon-on="ion-ios-home" icon-off="ion-ios-home">
+    </ion-tab>
+
+    <ion-tab style="display:none;" href="#/lieux" class="tab-item" icon-on="ion-location" icon-off="ion-location">
+    </ion-tab>
+
+    <ion-tab style="display:none;" href="#/map" class="tab-item" icon-on="ion-map" icon-off="ion-map">
+    </ion-tab>
+
+    <ion-tab style="display:none;" href="#/discover" class="tab-item" icon-on="ion-more" icon-off="ion-more">
+    </ion-tab>
+
+    <ion-tab style="display:none;" href="#/parametres" class="tab-item" icon-on="ion-gear-b" icon-off="ion-gear-b">
+    </ion-tab>
+</ion-tabs>
+
+<div id="animOverride"></div>
+
+<script src="lib/photoswipe/dist/photoswipe.min.js"></script>
+<script src="lib/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+<div id="photoswipe_perso">
+    <div id="pswpPerso" class="pswp pswp_pano" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+                <script>
+                    // Variable globale permettant de tester si le message d'erreur a déjà été généré
+                    erreurAffichee = false;
+                    firstOutPorrentruy = true;
+
+                    /*
+                     window.MobileAccessibility.getTextZoom(
+                     function getTextZoomCallback(textZoom) {
+                     console.log('Current text zoom = ' + textZoom + '%')
+                     }
+                     );
+                     */
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

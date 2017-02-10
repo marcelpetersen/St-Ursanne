@@ -1,0 +1,539 @@
+{
+  "lieux":[
+    {
+      "id":0,
+      "name":"Château de Porrentruy",
+      "images":[
+        {"image": "1.jpg", "description":"Château de Porrentruy."},
+        {"image": "2.jpg", "description":"Château de Porrentruy."},
+        {"image": "3.jpg", "description":"Château de Porrentruy de nuit."},
+        {"image": "4.jpg", "description":"Tour du Coq."},
+        {"image": "5.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "7.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."},
+        {"image": "8.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Imposant édifice dont l’origine remonte au 13e siècle et dont les bâtiments étaient plus nombreux à l’époque.\nVaste programme de reconstruction entrepris vers 1588 par l’architecte Nicolas Frick sous le règne du prince-évêque Jacques-Christophe Blarer de Wartensee.\nEn 1697, le château est victime d’un vaste incendie. La  cour  est  fermée au sud par le long pavillon de la Princesse Christine, qui doit son nom au  souvenir des séjours de Christine de Saxe, tante de Louis XVI, abbesse de Remiremont de 1773 à 1775.\nLe château est aujourd’hui le siège des autorités judiciaires de la République et Canton du Jura. L’intérieur du château n’est pas accessible au public durant le week-end.",
+      "address":"Rue du château 3",
+      "latitude" : 47.419318,
+      "longitude" : 7.072209,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Entrée principale",
+          "image": [
+            {"image": "1.jpg",  "description":"Armoiries des communes d’Ajoie."}
+          ]
+        },
+        {
+          "titre":"Premier étage",
+          "image": [
+            {"image": "2.jpg", "description":"Corridor 1er étage avec galerie des portraits des princes-évêques."},
+            {"image": "12.jpg", "description":"Jacques-Christophe Blarer de Wartensee (1542 - 1608) prince-évêque de 1575 à 1608. Grand Restaurateur du pays."},
+            {"image": "13.jpg", "description":"Jean-Conrad de Roggenbach (1618 - 1693) prince-évêque de 1656 à 1693. Introduit un nouvel impôt l'accise"},
+            {"image": "14.jpg", "description":"Joseph-Gullaume Rink de Baldenstein (1704 – 1762) prince évêque de 1744 à 1762. Introduit une nouvelle gestion moderne des forêts."},
+            {"image": "15.jpg", "description":"Simon-Nicolas de Montjoie (1692 – 1775) prince-évêque de 1762 à 1775. Recense la population en 1770 et construit les grands bâtiments baroques en ville."}
+          ]
+        },
+        {
+          "titre":"Salle du tribunal",
+          "image": [
+            {"image": "3.jpg", "description":"Ancienne salle à manger du prince-évêque, actuellement salle du Tribunal cantonal."}
+          ]
+        },
+        {
+          "titre":"Linteau",
+          "image": [
+            {"image": "4.jpg",  "description":"Linteau avec date de 1590 fin de la construction de la Résidence et monogramme de l’architecte Nicolas Frick d’Ulm."}
+          ]
+        },
+        {
+          "titre":"Prison du château",
+          "image": [
+            {"image": "5.jpg", "description":"Une cellule de la prison sous les princes-évêques."}
+          ]
+        },
+        {
+          "titre":"Pavillon de la Princesse Christine",
+          "image": [
+            {"image": "8.jpg", "description":"Porte en chêne massif du Pavillon de la Princesse Christine"},
+            {"image": "7.jpg", "description":"Ferrure avec les armes du prince-évêque Jacques Christophe Blarer de Wartensee, la crosse signe de sa dignité d’évêque et le coq, emblème de la famille Blarer."}
+          ]
+        },
+        {
+          "titre":"Tour Réfous",
+          "image": [
+            {"image": "6.jpg",  "description":"Tour Réfous datant du 13ème siècle. Hauteur 38 m jusqu’aux créneaux, largeur du mur à la base 4,50 m, escalier à l’intérieur du mur."},
+            {"image": "10.jpg",  "description":"Vue depuis l'extérieur du château"},
+            {"image": "11.jpg",  "description":"Intérieur de la tour Réfous."}
+          ]
+        },
+        {
+          "titre":"Cour du château",
+          "image": [
+            {"image": "9.jpg", "description":"De gauche à droite : La Résidence, La Chancellerie, Le Pavillon de la Princesse Christine"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":1,
+      "name":"Porte de France",
+      "images":[
+        {"image": "1.jpg", "description":"Porte de France vue de l'extérieur."},
+        {"image": "2.jpg", "description":"Cadran de la porte."},
+        {"image": "3.jpg", "description":"Porte de France vue de l'intérieur."},
+        {"image": "8.jpg", "description":"VITA NOSTRA BREVIS EST - Notre vie est brève.\nParce qu'elle est ancienne, l'horloge n'a qu'une aiguille pour indiquer les heures."},
+        {"image": "9.jpg", "description":"Mouvement d'horloge à poids de 1711, en état de marche."},
+        {"image": "4.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "5.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."},
+        {"image": "7.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Reconstruite en 1563 sur des soubassements médiévaux, elle est transformée en 1744.\nDeux vigoureuses tours rondes sous  un toit conique flanquent le corps de passage surmonté d’un campanile.",
+      "address":"Faubourg de France 32",
+      "latitude" : 47.419162,
+      "longitude" : 7.073581,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Face intérieur",
+          "image": [
+            {"image": "1.jpg",  "description":"Porte côté Faubourg de France."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":2,
+      "name":"Creugenat",
+      "images":[
+        {"image": "1.jpg", "description":"Rivière en crue."},
+        {"image": "6.jpg", "description":"Creugenat en été."},
+        {"image": "7.jpg", "description":"Creugenat en crue."},
+        {"image": "8.jpg", "description":"Creugenat en été."},
+        {"image": "9.jpg", "description":"Creugenat en crue."},
+        {"image": "4.jpg", "description":"Trou du Creugenat."},
+        {"image": "5.jpg", "description":"Trou du Creugenat (Profondeur d'environ 20 mètres)."}
+      ],
+      "description":"Le Creugenat est un gouffre émissif situé sur la commune de Chevenez qui émet des eaux en cas de crue et donne naissance à une rivière temporaire.\nLes eaux suivent la plaine de Courtedoux et se jettent dans la rivière l’Allaine à Porrentruy.\nLe pont du 19e siècle porte sur le parapet les armes de la ville.",
+      "address":"P.Péquignat 42",
+      "latitude" : 47.418215,
+      "longitude" : 7.073126,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Boules apotropaïques",
+          "image": [
+            {"image": "1.jpg",  "description":"Boules apotropaïques: croyance païenne, elles devaient éloigner le mal de la maison."}
+          ]
+        },
+        {
+          "titre":"Creugenat",
+          "image": [
+            {"image": "2.jpg",  "description":"Creugenat normal"},
+            {"image": "3.jpg",  "description":"Creugenat en crue"}
+          ]
+        },
+        {
+          "titre":"Boules apotropaïques",
+          "image": [
+            {"image": "4.jpg",  "description":"Creugenat normal"},
+            {"image": "5.jpg",  "description":"Creugenat en crue"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"Maison Turberg",
+      "images":[
+        {"image": "1.jpg", "description":"Maison Turberg après rénovation."},
+        {"image": "4.jpg", "description":"Meurtrières en trou de serrure."},
+        {"image": "2.jpg", "description":"Maison Turberg avant rénovation."},
+        {"image": "3.jpg", "description":"Maison Turberg avant rénovation."}
+      ],
+      "description":"Demeure du 16e siècle adossée à l’ancien mur d’enceinte.\nAncienne demeure du maître- bourgeois Pierre-François Choullat (1684- 1765). Imposante construction qui ferme la perspective de la rue Principale. Grande cour en bordure de la rue et tourelle d’escalier polygonale datée de 1569.",
+      "address":"Rue P.Péquignat 42",
+      "latitude" : 47.418260,
+      "longitude" : 7.073431,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":4,
+      "name":"Hôtel des Halles",
+      "images":[
+        {"image": "1.jpg", "description":"Façade rue Pierre Péquignat."},
+        {"image": "2.jpg", "description":"Colones de l'Hôtel des Halles."},
+        {"image": "3.jpg", "description":"Façade rue Pierre Péquignat."},
+        {"image": "4.jpg", "description":"Façade rue des Malvoisins."},
+        {"image": "5.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."}
+      ],
+      "description":"De 1766 à 1769, le prince-évêque Simon- Nicolas de Montjoie fait rebâtir l’édifice par l’architecte Pierre-François Paris sur l’emplacement d’une halle de marché gothique et d’une auberge.\nA l’origine, l’édifice comprenait le marché au grain et le poids public, un hôtel pour les hôtes du prince-évêque et un magasin à grain.\nAujourd’hui, l’Office de la Culture et la Bibliothèque cantonale y sont hébergés.",
+      "address":"Rue Pierre-Péquignat 9",
+      "latitude" : 47.417262,
+      "longitude" : 7.074008,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"BCJ",
+          "image": [
+            {"image": "1.jpg",  "description":"En 1922 la Banque cantonale de Berne acquiert cinq propriétés au bas de la rue de la Poste (actuellement rue des Malvoisins). La succursale de la Banque s’y installe dès 1925."},
+            {"image": "2.jpg",  "description":"Les propriétaires  étaient : Les héritiers de dame Lucie Chappuis-Parrat; Mme Joseph Hublard-Pape et ses enfants; les époux Achille Chavanne-Mouche; M. Léon Prêtre; Vve Anna Tricano et héritiers de Louise Tondeur-Carraz"}
+          ]
+        }
+      ]
+    },
+    {
+      "id":5,
+      "name":"Hôtel de ville",
+      "images":[
+        {"image": "1.jpg", "description":"Vue de face."},
+        {"image": "2.jpg", "description":"Vue de la rue du 23-Juin."},
+        {"image": "7.jpg", "description":"Vue sur le bas de la Grand-Rue"},
+        {"image": "8.jpg", "description":"Vue sur la rue Pierre Péquignat"},
+        {"image": "3.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "4.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "5.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment"}
+      ],
+      "description":"L’hôtel de ville est situé à la croisée des deux axes principaux de la ville.\nSa façade principale a été transformée par Pierre-François Paris entre 1761 et 1764: style baroque avec de nombreux éléments décoratifs, piédestaux couronnés de vases, balustrade en attique et portail en fer forgé de style Louis XVI.",
+      "address":"Rue Pierre-Péquignat 2",
+      "latitude" : 47.416910,
+      "longitude" : 7.074882,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Sanglier de Porentruy",
+          "image": [
+            {"image": "1.jpg", "description":"Le sanglier, emblème de la ville de Porrentruy."}
+          ]
+        },
+        {
+          "titre":"Porte d'entrée",
+          "image": [
+            {"image": "2.jpg", "description":"Sur la porte d’entrée en plein-cintre : tête de Minerve, dans la mythologie romaine, déesse de la sagesse, de l’intelligence et de la paix. Au 1er étage, balcon avec grille en fer forgé du milieu du 18e siècle."}
+          ]
+        },
+        {
+          "titre":"Conseil de ville",
+          "image": [
+            {"image": "3.jpg", "description":"Salle du Conseil de ville, pouvoir législatif."}
+          ]
+        },
+        {
+          "titre":"Accueil Jura Tourisme",
+          "image": [
+            {"image": "4.jpg", "description":"Accueil Jura Tourisme"},
+            {"image": "5.jpg", "description":"Accueil Jura Tourisme"}
+          ]
+        },
+        {
+          "titre":"Méridienne de l'Hôtel de ville",
+          "image": [
+            {"image": "7.jpg", "description":"Méridienne de l'Hôtel de ville"}
+          ]
+        },
+        {
+          "titre":"Horloge de l'Hôtel de ville",
+          "image": [
+            {"image": "6.jpg", "description":"L’horloge de l’Hôtel de Ville est  installée dès 1413. Il s’agit probablement d’une des premières horloges publiques de Suisse. Le conseil de la Bourgeoisie attribuait chaque année au gouverneur une livre de saindoux pour la graisser. Cette horloge a fonctionné jusqu’en 1731. En 1731 un marché est conclu avec Germain Gigandet pour remplacer l’ancienne horloge. Cette horloge ne fonctionnera que jusqu’en 1759. Elle a été remplacée par une autre horloge achetée à l’horloger Nicolas Berthold qui a disparu."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":6,
+      "name":"Hôtel-Dieu",
+      "images":[
+        {"image": "1.jpg", "description":"Vue de l'extérieur avec portail."},
+        {"image": "2.jpg", "description":"Vue intérieure de la cour."},
+        {"image": "3.jpg", "description":"Façade."},
+        {"image": "5.jpg", "description":"Grand ostensoir, artisan bâlois Martin Schongauer, 1488."},
+        {"image": "7.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Situé au centre-ville, l’Hôtel-Dieu a été construit en 1761 par Pierre-François Paris, architecte à la cour du prince-évêque de Bâle. Hôpital des bourgeois, il le restera jusqu’en 1956.\nDès 1983 l’Hôtel-Dieu, appartient à la Municipalité de Porrentruy. Restauré de 1987 à 1996, il abrite depuis 1998 le musée de la ville de Porrentruy, ainsi que la pharmacie de l'ancien hôpital datant du milieu du 19e siècle.",
+      "address":"Grand-Rue 5",
+      "latitude" : 47.416628,
+      "longitude" : 7.075158,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Grille d'entrée de la cour",
+          "image": [
+            {"image": "1.jpg", "description":"Grille en fer forgé avec une inscription latine « Au Christ parmi les pauvres »."}
+          ]
+        },
+        {
+          "titre":"Porte d'entrée",
+          "image": [
+            {"image": "3.jpg", "description":"Escalier du hall d'entrée."},
+            {"image": "4.jpg", "description":"Escalier du hall d'entrée."},
+            {"image": "5.jpg", "description":"Grille en fer forgé avec armes du prince-évêque Simon-Nicolas de Montjoie, la crosse (pouvoir spirituel) et l'épée (pouvoir temporel)"}
+
+          ]
+        },
+        {
+          "titre":"Pharmacie",
+          "image": [
+            {
+              "image": "2.jpg",
+              "description": "Pharmacie d’hôpital, œuvre de l’ébéniste Jean-Baptiste Carraz, construction 1846-47, en bois d’érable, pin, prunier amarante et ébène, avec 240 pots en verre et porcelaine de Limoges. Les inscriptions sont en français, les soeurs de Ste-Marthe étaient à la tête de l’hôpital et ne connaissaient pas le latin."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":7,
+      "name":"Fontaine de la Samaritaine",
+      "images":[
+        {"image": "1.jpg", "description":"Fontaine de la Samaritaine."},
+        {"image": "2.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Située à l’angle de la rue de l’Eglise et de la Grand-rue, la fontaine de La Samaritaine a été réalisée par Laurent Perroud de Cressier, en 1564.\nFontaine monumentale où le Christ et la Samaritaine se font face, accoudés à la margelle du puits.\nLes piliers portent un entablement sur lequel se trouve Saint Jean- Baptiste enfant, tenant la croix et l’écu aux armes de la cité. Elle est une des trois fontaines monumentales de la ville.",
+      "address":"Rue de l'Église 2",
+      "latitude" : 47.416444,
+      "longitude" : 7.075223,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":8,
+      "name":"Église St-Pierre",
+      "images":[
+
+        {"image": "1.jpg", "description":"Vue extérieure."},
+        {"image": "2.jpg", "description":"Buffet d’orgue de style empire (1813), orgue classique français de paroisse, confectionné par François Callinet de Rouffach (Alsace) ; Restauration 1983."},
+        {"image": "11.jpg", "description":"Choeur de l'église St-Pierre."},
+        {"image": "12.jpg", "description":"Stalles de 1721-1724 par Hugues-Jean Monnot."},
+        {"image": "13.jpg", "description":"Fonts baptismaux en bronze datés de 1600, oeuvre de Pierre Guizinger, portant des bas-reliefs et les armes de la ville ; couvercle en bois sculpté, de 1759, par Frédéric-Joseph Fueg."},
+
+        {"image": "3.jpg", "description":"Vue depuis la rue du Collège."},
+        {"image": "4.jpg", "description":"Chapelle Saint Michel."},
+        {"image": "7.jpg", "description":"Ancienne maison des familles de Reinach, puis de Billieux, construite au 18e siècle. Le mur de clôture est brisé par une grille en fer forgé de style Louis XVI."},
+        {"image": "9.jpg", "description":"Grille en fer forgé de style Louis XVI."},
+        {"image": "8.jpg", "description":"Entrée à refends avec grille d’imposte de la porte aux armes des Billieux et des Tardy."},
+        {"image": "10.jpg","description":"Le pavillon qui couronne le vestige des remparts près de l’église Saint-Pierre à Porrentruy a été aménagé par le chancelier Billieux dans les années 1770.\nIl s’agit d’une petite construction en colombage, largement ouverte côté campagne et agrémentée d’une cheminée à la française.\nOn imagine volontiers le chancelier venir se délasser dans son pavillon de plaisance d’où il jouissait d’une vue imprenable  sur la campagne environnante."},
+        {"image": "5.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "6.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Construite de 1321 à 1333, elle a été agrandie à la fin du 14e siècle du côté nord par le rajout de chapelles latérales. Au sud, chapelle Saint-Michel construite entre 1450 et 1487.\nLa restauration entreprise de 1978 à 1982 a permis de redonner à l’église son aspect primitif.\nLe vitrail du chœur est une œuvre de l’artiste Jean-François Comment.\nDerrière l’église, les remparts supportent une belle esplanade. A droite du rempart petit pavillon d’angle à colombages.",
+      "address":"Rue de l'Église 15",
+      "latitude" : 47.415792,
+      "longitude" : 7.076524,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":9,
+      "name":"Église St-Germain",
+      "images":[
+        {"image": "1.jpg", "description":"Église St-Germain."},
+        {"image": "2.jpg", "description":"Chapelle fondée par Bourquard de Tavanne en 1427."},
+        {"image": "3.jpg", "description":"Entrée église St-Germain."},
+        {"image": "4.jpg", "description":"Peinture murale vers 1698, baptême dans le Jourdain."}
+      ],
+      "description":"L'église Saint-Germain, première église paroissiale de Porrentruy, se trouve sur l'un des plus anciens sites habités de la ville. Un sanctuaire a été érigé en cet endroit au XIe siècle.\nL'édifice actuel a été construit au début du XIIIe siècle et agrandi en 1427 d'une chapelle sur son flanc nord. Le choeur voûté sur croisées d'ogives offre un bon exemple de transition entre le style roman et le style gothique.\nLa nef a été reconstruite et agrandie en 1698, époque qui a laissé d'importantes peintures sur les murs intérieurs.\nL'ensemble de l'édifice a été restauré de 1958 à 1961. On remarque les anciennes statues en bois polychrome, dont une Vierge à l'Enfant de la fin du 14e siècle.\nLes vitraux sont des copies des originaux du 15e siècle. Le cimetière, désaffecté en 1884, contient les tombes et monuments funéraires de plusieurs personnalités jurassiennes.",
+      "address":"Rue de Courgenay 1",
+      "latitude" :47.416323,
+      "longitude" : 7.079366,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":10,
+      "name":"Collège des jésuites",
+      "images":[
+        {"image": "1.jpg", "description":"Partie Est (Construction 1591-1604)."},
+        {"image": "2.jpg", "description":"Partie Ouest (Construction 1935-1938)."},
+        {"image": "3.jpg", "description":"Ancienne église des jésuites, stucs entre 1680 et 1720."},
+        {"image": "4.jpg", "description":"Orgue de Jürgen Ahrend, 1984."},
+        {"image": "5.jpg", "description":"Eglise des jésuites, vue de l’extérieur."},
+        {"image": "8.jpg", "description":"Ancienne église des jésuites."},
+        {"image": "6.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "7.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Ancien Collège des Jésuites fondé en 1591 par Jacques-Christophe Blarer de Wartensee. Les bâtiments dans leur ensemble ont été construits entre 1597 et 1607 par Nicolas Frick, d’Ulm.\nA l’origine, l’institution comprenait, d’est en ouest, l’église des Jésuites, le corps principal et le Séminaire. Ces deux derniers bâtiments ont été reliés par une construction sur arcades de 1935 à 1938.",
+      "address":"Place Blarer de Wartensee",
+      "latitude" : 47.414185,
+      "longitude" : 7.076415,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":11,
+      "name":"Jardin botanique",
+      "images":[
+        {"image": "1.jpg", "description":"80 sortes de roses."},
+        {"image": "2.jpg", "description":"180 sortes d’iris."},
+        {"image": "3.jpg", "description":"Cactées serres du jardin botanique."},
+        {"image": "4.jpg", "description":"Cactées serres du jardin botanique."},
+        {"image": "5.jpg", "description":"Jardin botanique et collège avant 1935 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."}
+      ],
+      "description":"La création du Jardin botanique remonte à 1792 et se trouve être une des premières de son genre en Suisse.\nLe jardin extérieur inclut, dans un cadre architectural remarquable, différentes plantations dont un parc arborisé avec de grands arbres centenaires, une collection de plus de 80 variétés de roses et 180 d’iris. Un jardin jurassien présente pas moins de 800 espèces de plantes indigènes.",
+      "address":"Place Blarer-de-Wartensee 2",
+      "latitude" : 47.414001,
+      "longitude" : 7.075960,
+      "panorama":true,
+      "hotspots": [
+        {
+          "titre":"Séquoia",
+          "image": [
+            {"image": "1.jpg", "description":"Séquoia arbre originaire de Californie, env. 50 ans d’âge."}
+          ]
+        },
+        {
+          "titre":"Thuya",
+          "image": [
+            {"image": "2.jpg", "description":"Thuya, arbre exotique proche du cyprès, env 150 ans d’âge."}
+          ]
+        },
+        {
+          "titre":"Cadran Solaire",
+          "image": [
+            {"image": "3.jpg", "description":"Traduction de la citation latine : “Le temps passe lentement pour le paresseux et rapidement pour l’homme actif”."},
+            {"image": "4.jpg", "description":"Attention le cadran solaire indique l’heure solaire et non pas l’heure de votre montre !"}
+          ]
+        },
+        {
+          "titre":"Cadran Solaire orienté plein sud",
+          "image": [
+            {"image": "6.jpg", "description":"Cadran solaire orienté vers l'ouest."}
+          ]
+        },
+        {
+          "titre":"Cadran Solaire orienté plein sud",
+          "image": [
+            {"image": "5.jpg", "description":"On aperçoit dans la façade le trou par lequel le soleil marque l’heure sur la méridienne."},
+            {"image": "7.jpg", "description":"Il existe au premier étage de l’Ancien Collège des Jésuites  une  méridienne  horizontale. Il s’agit d’un dispositif servant à mesurer le temps d’après la position du soleil. Les plans et les calculs de la méridienne réalisés entre 1812 et 1814 sont le fruit des recherches d’Aloyse de Billieux."}
+          ]
+        }
+      ]
+    },
+    {
+      "id":12,
+      "name":"Tour du Séminaire",
+      "images":[
+        {"image": "1.jpg", "description":"Tour du Séminaire."},
+        {"image": "3.jpg", "description":"Rez-de-chaussée de la tour."},
+        {"image": "4.jpg", "description":"Chapelle du Séminaire avant rénovation."},
+        {"image": "5.jpg", "description":"Chapelle après rénovation."},
+        {"image": "6.jpg", "description":"Armoiries avant rénovation."},
+        {"image": "7.jpg", "description":"Armoiries après rénovation de Joseph-Guillaume Rink de Baldenstein, sur la droite l’épée et le heaume, distinctions de son pouvoir temporel (prince du St-Empire romain germanique), à gauche la crosse et la mitre, signes de sa dignité d’évêque et donc son pouvoir spirituel."}
+      ],
+      "description":"Bastion sur plan de fer à cheval, en pierre de taille, daté de 1614. Il est situé à l’angle sud-ouest de l’ancien séminaire, élément de l’extension des fortifications rendue nécessaire par la construction du Collège des Jésuites.\nL’étage supérieur abrite l’ancienne chapelle des pages et du pensionnat aménagée en 1755 par le prince-évêque Joseph-Guillaume Rinck de Baldenstein.",
+      "address":"Rue Thurmann",
+      "latitude" : 47.413819,
+      "longitude" : 7.075120,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":13,
+      "name":"Temple réformé",
+      "images":[
+        {"image": "1.jpg", "description":"Temple réformé."},
+        {"image": "2.jpg", "description":"Intérieur du temple."},
+        {"image": "3.jpg", "description":"Vitrail par Auguste Labouret et Henri Vermeille, 1937."},
+        {"image": "4.jpg", "description":"Rénovation du temple en 2013."}
+      ],
+      "description":"Construit en 1890-1891 sur les plans de l'architecte bâlois Paul Reber (architecte du temple de Gebensdorf AG).\nCet édifice néo-gothique a été rénové en 1936 et en 1983, puis en 2013. Le vitrail du choeur, en dalle de verre éclaté, est signé d'Auguste Labouret et Henri Vermeil (1937). Pointe du clocher et gargouilles en zinc.\nLustre principal (diam. 3m / 300kg) refait à l'ancienne (globes soufflés à la canne), 4 lustres (diam. 1,2m) au-dessus des bancs.\nBoiseries du choeur et chaire de l'ancienne église anglaise de Grindelwald (part. détruite par le feu en 1970).\nLa Paroisse réformée évangélique de Porrentruy fut fondée en 1816. Elle est la plus ancienne de cette confession dans le canton.\nEmplacement de l'ancien couvent des Annonciades. Les religieuses de la congrégation des Annonciades s'installèrent à Porrentruy en 1632. Elles firent édifier à cet endroit un couvent, achevé en 1666, et une église consacrée en 1670.\nÀ la Révolution, les soeurs quittèrent le monastère, qui fut ensuite transformé en prison. Les derniers vestiges apparents du couvent ont été enlevés en 1938.",
+      "address":"Rue des Annonciades 16",
+      "latitude" : 47.415162,
+      "longitude" : 7.074893,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":14,
+      "name":"Hôtel de Gléresse",
+      "images":[
+        {"image": "1.jpg", "description":"Vue extérieure."},
+        {"image": "2.jpg", "description":"Façade rue des Annonciades."},
+        {"image": "3.jpg", "description":"Hall d'entrée."},
+        {"image": "4.jpg", "description":"Escalier."},
+        {"image": "9.jpg", "description":"Armoiries des propriétaires : les trois trèfles pour la famille de Gléresse et la tour inversée pour la famille Rink de Baldenstein."},
+        {"image": "5.jpg", "description":"Salle de lecture, Archives de l’Ancien Evêché de Bâle."},
+        {"image": "6.jpg", "description":"Evangéliaire de St-Ursanne, bible du 9e siècle"},
+        {"image": "7.jpg", "description":"Graduel de Bellelay, livre de chant, début 12e siècle"},
+        {"image": "8.jpg", "description":"Confirmation par le prince-évêque Blarer des franchises de la ville de Porrentruy, 1598."},
+        {"image": "10.jpg", "description":"Traité d’alliance entre le prince-évêque Blarer et les cantons catholique du 28 septembre 1579."}
+      ],
+      "description":"Hôtel particulier, entre cour et jardin, à trois niveaux construit vers 1750, sur des plans de Giovanni Gaspare Bagnato, pour Conrad de Gléresse, époux de Madeleine Rinck de Baldenstein, sœur du prince-évêque régnant. Portail en anse de panier ouvrant sur un hall d’entrée à voûte surbaissée en stuc. Rampe d’escalier armoriée en fer forgé.",
+      "address":"Rue des Annonciades 10",
+      "latitude" : 47.415848,
+      "longitude" : 7.074589,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":15,
+      "name":"Fontaine ronde boule dorée",
+      "images":[
+        {"image": "1.jpg", "description":"Fontaine de la ronde boule dorée."},
+        {"image": "2.jpg", "description":""}
+      ],
+      "description":"Démolie à la fin du 19e siècle, elle a été complètement reconstruite en 1991 à la Rue des Annonciades. Fût d’origine restauré, nouveau  support, nouvelle boule de couronnement ont été réalisés puis érigés dans un nouveau bassin.\nLa fontaine a retrouvé ses proportions anciennes et sa place.",
+      "address":"Rue des Annonciades 9",
+      "latitude" : 47.416045,
+      "longitude" : 7.074655,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":16,
+      "name":"Fontaine du Banneret",
+      "images":[
+        {"image": "1.jpg", "description":"Fontaine du Banneret avec vue sur la rue des Malvoisins."},
+        {"image": "2.jpg", "description":"Fontaine du Banneret."},
+        {"image": "3.jpg", "description":"Photo prise vers les années 1900 - &copy Copyright Musée de l’Hôtel-Dieu Porrentruy."},
+        {"image": "4.png", "description":"Illustration de Pitch - &copy Copyright Pitch Comment."}
+      ],
+      "description":"Construite en 1558, elle est du même \"burnelier\", selon l'expression de l'époque, que la fontaine de La Samaritaine.\nLa statue du Suisse qui surmonte le fût a été détruite en 1814, et ne fut remplacée qu’en 1913 par le soldat actuel. Celui-ci est de Peter Heusch, de Strasbourg.\nAux pieds du banneret se trouve un sanglier, symbole héraldique de la ville de Porrentruy.",
+      "address":"Rue des Malvoisins 1",
+      "latitude" : 47.416619,
+      "longitude" : 7.074161,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    },
+    {
+      "id":17,
+      "name":"Les venelles",
+      "images":[
+        {"image": "1.jpg", "description":""},
+        {"image": "2.jpg", "description":""}
+      ],
+      "description":"Ruelle étroite entre deux rangées de maisons parallèles servant d’égouts à ciel ouvert. Cette situation amenait des épidémies de fièvres typhoïdes. Le Dr. Alfred Ceppi dénonce en 1881 les calamités des venelles. Ces dernières  seront transformées et les égouts mis en terre. Accessible au public dans le cadre du circuit secret ou avec accompagnement d’un guide",
+      "address":"Grand-rue 18",
+      "latitude" : 47.416085,
+      "longitude" : 7.075170,
+      "panorama":false,
+      "hotspots": [
+
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<ion-view view-title="{{ 'ACCUEIL_MENU_TITRE' | translate }}" class="accueil" hide-back-button="true" hide-nav-bar="true">
+
+    <ion-nav-bar class="bar-stable bar-positive hide">
+        <ion-nav-back-button>
+
+        </ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-content class="content" scroll="false">
+            <hgroup class="home-title">
+                <h1>{{ 'ACCUEIL_TITRE' | translate }}</h1>
+                <h2>{{ 'ACCUEIL_SOUSTITRE' | translate }}</h2>
+                <img src="data/img/{{ 'ACCUEIL_SVG' | translate }}"/>
+            </hgroup>
+        <ion-list class="menu_list">
+            <ion-item class="item item-icon-left item-icon-right" type="item-text-wrap" href="#/history" ion-track-tap="Menu" ion-track-data="{onglet: 'Histoire'}">
+                <i class="icon left-icon ion-university"></i>
+                <h2>{{ 'ACCUEIL_MENU_1' | translate }}</h2>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+            </ion-item>
+
+            <ion-item class="item item-icon-left item-icon-right" type="item-text-wrap" href="#/lieux" ion-track-tap="Menu" ion-track-data="{onglet: 'Sites'}">
+                <i class="icon left-icon ion-location"></i>
+                <h2>{{ 'ACCUEIL_MENU_2' | translate }}</h2>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+            </ion-item>
+
+            <ion-item class="item item-icon-left item-icon-right" type="item-text-wrap" href="#/map" ion-track-tap="Menu" ion-track-data="{onglet: 'Carte'}">
+                <i class="icon left-icon ion-map"></i>
+                <h2>{{ 'ACCUEIL_MENU_3' | translate }}</h2>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+            </ion-item>
+
+            <ion-item class="item item-icon-left item-icon-right" type="item-text-wrap" href="#/discover" ion-track-tap="Menu" ion-track-data="{onglet: 'Autre'}">
+                <i class="icon left-icon ion-more"></i>
+                <h2>{{ 'ACCUEIL_MENU_4' | translate }}</h2>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+            </ion-item>
+
+            <ion-item class="item item-icon-left item-icon-right" type="item-text-wrap" href="#/parametres" ion-track-tap="Menu" ion-track-data="{onglet: 'Favoris'}">
+                <i class="icon left-icon ion-gear-b"></i>
+                <h2>{{ 'ACCUEIL_MENU_5' | translate }}</h2>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

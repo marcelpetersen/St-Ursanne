@@ -1,0 +1,45 @@
+#history-page {
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center center;
+
+  .history {
+    margin: 20px 5% 0px 5% !important;
+  }
+
+  .historyButton{
+    background-color:$light_blue;
+    border: 0 solid $light_grey;
+    color:white;
+    width: 50%;
+    font-size: $font_l!important;
+    height: 50px;
+  }
+
+  .lieu-slider{
+    height:250px !important;
+  }
+
+  .bandeau{
+    .title{
+      padding:0 !important;
+      h1{
+        padding:20px;
+        margin: 0 !important;
+      }
+      .row{
+        width: 100%;
+        padding: 0 !important;
+        button:not(.active) {
+          box-shadow: inset 0 0 7px -1px $shadow_light;
+        }
+        .active{
+          background-color:white;
+          color:$light_blue;
+        }
+      }
+    }
+  }
+}
+
+

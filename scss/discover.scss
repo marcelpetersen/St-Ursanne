@@ -1,0 +1,49 @@
+.ion-content {
+  background-color: $light_grey;
+
+  a {
+    text-decoration: none;
+  }
+
+  .informations {
+    margin: 0 5%;
+
+    .discover_link {
+      padding-top:0.5em;
+    }
+
+    .item {
+      border: 0;
+      background-color: $light_grey;
+      color: $dark_blue;
+
+      p{
+        font-size: $font_m!important;
+        white-space: nowrap!important;
+      }
+      .item_title p{
+        color:black !important;
+      }
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
+  }
+  .icon{
+    -webkit-box-align: initial;
+    -ms-flex-align: initial;
+    -webkit-align-items: initial;
+    -moz-align-items: initial;
+    align-items: initial;
+    top:15px;
+  }
+}
+
+#discover {
+  margin-bottom: 55px;
+}

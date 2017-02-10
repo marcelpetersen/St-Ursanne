@@ -1,0 +1,69 @@
+.menu{
+  -webkit-transition: all $animation_duration $animation_type;
+  -moz-transition: all $animation_duration $animation_type;
+  -o-transition: all $animation_duration $animation_type;
+  transition: all $animation_duration $animation_type;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  width: 100%;
+
+  .navbar_top {
+    font-size: $font_m!important;
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    margin: 0;
+    padding: 1px 12px 0 12px;
+    background-color: $dark_blue;
+    text-align: center;
+    line-height: 40px;
+    color: $light_grey;
+    z-index: 100;
+  }
+
+  .navbar_content{
+    background-color: $light_grey;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 10px;
+
+    .item {
+      padding-top:10px;
+      padding-bottom:0;
+      p {
+        padding-bottom: 20px;
+      }
+    }
+
+    img{
+      width:100%;
+    }
+
+    p{
+      padding: 10px 5% 0 5%;
+    }
+  }
+}
+
+.pano-slider{
+  top:0;
+}
+
+.slide-in-up {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.hidden{
+  display:none;
+}
+
+.pswp__top-bar {
+  top: 20px !important;
+}

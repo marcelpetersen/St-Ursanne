@@ -1,0 +1,34 @@
+<ion-view view-title="{{ 'PARAMETRES_MENU_TITLE' | translate }}"  cache-view="true" class="parametres">
+
+
+    <ion-nav-bar class="bar-stable bar-positive">
+        <ion-nav-back-button>
+
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-content class="has-footer">
+
+        <div class="item item-divider"> <b>{{ 'PARAMETRES_SECTION_1_TITRE' | translate }}</b></div>
+        <ion-toggle  ng-model="satellite" ng-checked="satellite" ng-change="switchDataState()"><div id="turnOnData">{{ 'PARAMETRES_SECTION_1_TOGGLE' | translate }}</div></ion-toggle>
+        <div id="messageInformation" style="padding: 15px;">
+            <p>{{ 'PARAMETRES_SECTION_1_CONTENU_1' | translate }}</p>
+
+            <ion-item style="font-size: 0.9em;" class="item item-icon-left" href="#/parametres" ion-track-tap="Menu" ion-track-data="{onglet: 'Favoris'}">
+                <i class="icon left-icon ion-android-warning"></i>
+                <b>{{ 'PARAMETRES_SECTION_1_CONTENU_2' | translate }}</b>
+            </ion-item>
+        </div>
+
+        <div class="item item-divider"> <b>{{ 'PARAMETRES_SECTION_2_TITRE' | translate }}</b></div>
+
+        <ion-radio ng-repeat="lang in getLangues()"
+                   ng-value="lang.value"
+                   ng-click="changeOrdreLang(lang.value)"
+                   ng-model="currentLang"
+                   name="RADIO_LIST_LANG">
+            <img src="data/img/{{lang.value}}.png" />{{ lang.text }}
+        </ion-radio>
+
+    </ion-content>
+</ion-view>

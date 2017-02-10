@@ -1,0 +1,68 @@
+<ion-view view-title="{{ 'LIEUX_DETAIL_MENU_TITLE' | translate }}" class="wrapper lieu-detail" cache-view="false">
+    <ion-nav-bar class="bar-stable bar-positive">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-nav-title>{{lieu.name}}</ion-nav-title>
+
+    <ion-content class="ion-content" has-bouncing="false" start-y="0">
+
+        <div id="pic-btn" class="lieu-slider">
+            <div class="lieu-thumbnail-img"></div>
+        </div>
+
+        <div class="bandeau">
+            <ul class="title small-block-grid-1">
+                <li>
+                    <h1>{{lieu.name}}</h1>
+                </li>
+                <li class="ligne">
+                    <div class="case">
+                        <a class="rond panoramaButton">
+                            <div class="img-svg pano-icon"></div>
+                        </a>
+                    </div>
+                    <div class="case">
+                        <a id="btn" class="rond">
+                            <div class="img-svg images-icon"></div>
+                        </a>
+                    </div>
+                    <div class="case">
+                        <a class="rond" href="#/map/{{lieu.id}}">
+                            <div class="img-svg compass-icon"></div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="informations small-block-grid-1">
+            <h3>{{ 'LIEU_DESCRIPTION' | translate }}</h3>
+            <p id="lieuDescription" ng-bind-html="lieu.description | newlines"></p>
+
+            <hr/>
+            <a href="#/map/{{lieu.id}}">
+                <div class="item item-icon-left" ng-click="setLieuDestination(lieu.id)">
+                    <i class="icon icon-left ion-location"></i>
+                    <p>{{lieu.address}}</p>
+                    <div id="distanceTime"></div>
+                </div>
+            </a>
+        </ul>
+
+        <script id="images-view.html" type="text/ng-template">
+            <div class="modal image-modal transparent" ng-click="closeModal()">
+                <ion-slide-box on-slide-changed="slideChanged(index)" show-pager="false">
+                    <ion-slide ng-repeat="img in lieu.images">
+                        <div id="container" style="position:fixed;display:inline;top:0;right:0;bottom:45px;left:0;">
+                            <div id="content" style="position:fixed;display:inline;right:0;left:0;top:0;bottom:45px;-webkit-transform-origin: 0 0;margin-top:45px;">
+                                <img ng-src="data/img/monument{{lieu.id}}/{{img.image}}" class="fullscreen-image"  zoomable id="image-scrollable"/>
+                            </div>
+                        </div>
+                    </ion-slide>
+                </ion-slide-box>
+            </div>
+        </script>
+    </ion-content>
+</ion-view>

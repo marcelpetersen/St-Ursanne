@@ -1,0 +1,105 @@
+{
+  "POPUP_LANGUE_CONFIRMATION_TITRE": "Confirmer",
+  "POPUP_LANGUE_CONFIRMATION_BOUTTON": "Changer",
+  "POPUP_LOCALISATION_OUI": "Oui",
+  "POPUP_LOCALISATION_NON": "Non",
+  "POPUP_LOCALISATION_TITRE": "Voulez-vous autoriser la connexion à l'internet ?",
+  "POPUP_LOCALISATION_CONTENU": "Cela permettera d'utiliser une carte en ligne plus détaillée ainsi que le calcul d'itinéraire.</br> Cependant, attention car cela entrainera d'éventuels coûts supplémentaires",
+
+
+
+  "ACCUEIL_MENU_TITRE": "Accueil",
+  "ACCUEIL_TITRE": "Porrentruy",
+  "ACCUEIL_SVG": "Porrentruy_Titre_FR.svg",
+  "ACCUEIL_SOUSTITRE": "Venez découvrir notre ville",
+  "ACCUEIL_MENU_1": "Histoire de Porrentruy",
+  "ACCUEIL_MENU_2": "Monuments",
+  "ACCUEIL_MENU_3": "Carte",
+  "ACCUEIL_MENU_4": "Autres possibilités de découverte",
+  "ACCUEIL_MENU_5": "Paramètres",
+
+
+  "HISTOIRE_TITRE": "La capitale des princes-évêques",
+  "HISTOIRE_HISTOIRE_TITRE": "Histoire",
+  "HISTOIRE_HISTOIRE_CONTENU_1": "Le site de Porrentruy est habité dès l’époque romaine, mais les premières mentions d’une petite bourgade se situent entre 968 et 1148.",
+  "HISTOIRE_HISTOIRE_CONTENU_2": "Promue au rang de ville au 13e siècle par Rodolphe de Habsbourg, Porrentruy devient la résidence des princes-évêques de Bâle dès 1528 suite à l’adoption de la Réforme par les bourgeois bâlois.",
+  "HISTOIRE_HISTOIRE_CONTENU_3": "Jacques-Christopher Blarer de Wartensee (prince-évêque de 1575 à 1608), appelé le Restaurateur de l’évêché reconstruit le château partiellement détruit par un incendie en 1558. Il fonde le Collège des Jésuites, devenu aujourd’hui Lycée cantonal.",
+  "HISTOIRE_HISTOIRE_CONTENU_4": "Ses successeurs incitent couvents et institutions religieuses ainsi que les familles nobles à construire en ville de Porrentruy. La capitale de l’évêché voit s’ériger des maisons aristocratiques.",
+  "HISTOIRE_HISTOIRE_CONTENU_5": "Au 18e siècle, la ville s’embellit de remarquables édifices de style baroque : Hôtel de Ville, Hôtel des Halles, Hôtel-Dieu et l’Hôtel de Gléresse. Les quartiers extérieurs, architecture Art Nouveau, se sont développés à la fin du 19e siècle entre la gare et la vieille ville.",
+
+  "HISTOIRE_DATES_TITRE": "Dates",
+  "HISTOIRE_DATES_CONTENU_1": "Charte de franchise octroyée par l’empereur du Saint empire romain germanique Rodolphe 1er de Habsbourg.",
+  "HISTOIRE_DATES_CONTENU_2": "L’évêque de Bâle, Philippe de Gundelsheim par un acte officiel transfert sa résidence de Bâle à Porrentruy.",
+  "HISTOIRE_DATES_CONTENU_3": "Le prince-évêque Jacques Christophe Blarer de Wartensee restaure le diocèse de Bâle, combat énergiquement la Réforme et applique les directives du Concile de Trente (1545 -1563).",
+  "HISTOIRE_DATES_CONTENU_4": "Guerre de Trente Ans, Porrentruy est alors occupée par les belligérants dès 1634 et ce pendant de longues années.",
+  "HISTOIRE_DATES_CONTENU_5": "Révolte des habitants de la Principauté épiscopale, les meneurs sont exécutés devant l’Hôtel de ville le 31 octobre 1740, d’autres envoyés en exil ou aux travaux forcés.",
+  "HISTOIRE_DATES_CONTENU_6": "Recensement : la Principauté épiscopale compte 55’000 habitants et Porrentruy 2’410 habitants.",
+  "HISTOIRE_DATES_CONTENU_7": "Le prince-évêque Joseph Sigismond de Roggenbach s’enfuit devant l’avancée des troupes révolutionnaires françaises.",
+  "HISTOIRE_DATES_CONTENU_8": "Porrentruy est la Préfecture du département français du Mont-Terrible.",
+  "HISTOIRE_DATES_CONTENU_9": "Le Congrès de Vienne rattache le territoire de la principauté episcopale de Bâle (sauf le Birseck qui est attribué au canton de Bâle) au canton de Berne.",
+  "HISTOIRE_DATES_CONTENU_10": "Entrée en souveraineté de la République et Canton du Jura.",
+
+
+
+
+  "LISTE_LIEUX_MENU_TITRE": "Monuments",
+  "LISTE_LIEUX_DISTANCE": "Monument à",
+
+
+
+  "LIEUX_DETAIL_MENU_TITLE": "Lieu",
+  "LIEUX_DETAIL_TRIS_TITLE": "Tris",
+  "LIEUX_DETAIL_TRI_1": "Par défaut",
+  "LIEUX_DETAIL_TRI_2": "Noms croissant (A-Z)",
+  "LIEUX_DETAIL_TRI_3": "Noms décroissants (Z-A)",
+  "LIEUX_DETAIL_TRI_4": "Plus proche au plus loin",
+  "LIEUX_DETAIL_TRI_5": "Plus loin au plus proche",
+  "LIEUX_DETAIL_FILTRES_TITLE": "Filtres",
+  "LIEUX_DETAIL_FILTRE_1": "Aucun",
+  "LIEUX_DETAIL_FILTRE_2": "Avec panorama",
+
+
+
+  "LIEU_DESCRIPTION": "Description",
+
+
+
+  "PANORAMA_MENU_TITLE": "Panorama",
+
+
+
+  "CARTE_MENU_TITLE": "Carte",
+  "CARTE_ERREUR_1_TITRE": "Erreur de localisation",
+  "CARTE_ERREUR_1_CONTENU": "La localisation ne fonctionne pas. Vérifiez que celle-ci est activée et réessayez.",
+  "CARTE_ERREUR_2_TITRE": "Erreur de localisation",
+  "CARTE_ERREUR_2_CONTENU": "La localisation ne fonctionne pas en dehors de la ville de Porrentruy.",
+  "CARTE_ERREUR_3_TITRE": "Configurer la carte",
+  "CARTE_ERREUR_3_CONTENU": "Vous pouvez changer l'affichage de la carte dans le menu de paramètres accessible directement depuis le menu d'accueil ou en cliquant sur l'icône en haut à droite.",
+  "CARTE_ERREUR_3_BOUTTON": "Paramètres",
+  "CARTE_ITINERAIRE": "Itinéraire",
+
+
+
+  "DECOUVRIR_MENU_TITRE": "Découvrir",
+  "DECOUVRIR_TITRE": "Découvrez Porrentruy avec d'autres activités",
+  "DECOUVRIR_CONTENU_1": "Pour les jeunes de 7 à 14 ans avec le cahier “Je découvre Porrentruy” en français et en allemand",
+  "DECOUVRIR_CONTENU_2": "Pour les familles avec “Le circuit secret”, vous entrez dans des lieux secrets et insolites avec une clef informatisée, documentation en français et en allemand",
+  "DECOUVRIR_CONTENU_3": "Pour les groupes mais aussi pour les individuels avec un guide qui vous contera l’histoire mouvementée de la cité des princes-évêques et des anecdotes.",
+  "DECOUVRIR_CONTENU_4": "Pour les groupes, visites guidées accompagnées d’un guide (visite recommandée d’une durée de 2 heures) : Visite générale, circuit horloger et visite d’une entreprise d’horlogerie. À convenir avec Jura Tourisme",
+
+  "DECOUVRIR_ADRESSE_1_TITRE": "Ville de Porrentruy",
+  "DECOUVRIR_ADRESSE_2_TITRE": "Jura Tourisme",
+  "DECOUVRIR_ADRESSE_3_TITRE": "Musée de l’Hôtel-Dieu",
+  "DECOUVRIR_ADRESSE_4_TITRE": "Musée des sciences naturelles et du jardin botanique",
+  "DECOUVRIR_ADRESSE_5_TITRE": "Jurassica",
+
+
+
+  "PARAMETRES_MENU_TITLE": "Paramètres",
+  "PARAMETRES_SECTION_1_TITRE": "Affichage des cartes",
+  "PARAMETRES_SECTION_1_TOGGLE": "Autoriser l'accès à l'internet",
+  "PARAMETRES_SECTION_1_CONTENU_1": "Activer cette option vous permettra d'afficher les cartes satellites et les itinéraires pour vous rendre à chacun des monuments.",
+  "PARAMETRES_SECTION_1_CONTENU_2": "Connexion à l'internet indispensable",
+
+  "PARAMETRES_SECTION_2_TITRE": "Langue de l'application"
+}

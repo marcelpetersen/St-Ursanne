@@ -1,0 +1,58 @@
+<ion-view view-title="{{ 'LISTE_LIEUX_MENU_TITRE' | translate }}" class="list-lieux">
+    <ion-nav-bar class="bar-stable bar-positive">
+        <ion-nav-back-button>
+
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <a href="" ng-click="openSortingMenu();" class="bar-header">
+        <i class="ion-android-funnel sort_lieux"></i>
+    </a>
+
+    <div id="sorting_menu">
+        <ion-header-bar>
+            <button class="button-block button-tris-left" id="switchToFiltres">{{ 'LIEUX_DETAIL_TRIS_TITLE' | translate }}</button>
+            <button class="button-block button-filtres-right" id="switchToTris">{{ 'LIEUX_DETAIL_FILTRES_TITLE' | translate }}</button>
+        </ion-header-bar>
+        <ion-content hide-sorting-menu>
+            <div class="list">
+                <div class="list-tris">
+                    <ion-radio ng-repeat="tri in getMonumentsTris()"
+                               ng-value="tri.value"
+                               ng-click="changeOrdre(tri.value)"
+                               ng-model="radioList.tri"
+                               name="RADIO_LIST_TRIS">
+                        {{ tri.text }}
+                    </ion-radio>
+                </div>
+                <div class="list-filtres">
+                    <ion-radio ng-repeat="filtre in getMonumentsFiltres()"
+                               ng-value="filtre.value"
+                               ng-click="changeElementsListe(filtre.value)"
+                               ng-model="radioList.filtre"
+                               name="RADIO_LIST_FILTRES">
+                        {{ filtre.text }}
+                    </ion-radio>
+                </div>
+            </div>
+        </ion-content>
+    </div>
+
+    <div hide-sorting-menu id="sorting_background"></div>
+
+    <ion-content class="has-footer">
+        <div class="list card" ng-repeat="lieu in getFiltredMonuments() | orderBy:getOrdreMonuments()">
+            <a href="#/lieu/{{lieu.id}}">
+                <div class="image" style="background-image:url('data/img/monument{{lieu.id}}/1.jpg')">
+                    <div class="proximity-list item-body">
+                        <h2>{{lieu.name}}</h2>
+                        <p>{{lieu.address}}</p>
+                        <p ng-if="lieu.distance < 1000">{{ 'LISTE_LIEUX_DISTANCE' | translate }} {{lieu.distance}} m</p>
+                        <p ng-if="lieu.distance >= 1000">{{ 'LISTE_LIEUX_MENU_TITRE' | translate }} {{(lieu.distance/1000).toFixed(1)}} km</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </ion-content>
+</ion-view>

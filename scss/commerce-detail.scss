@@ -1,0 +1,131 @@
+.commerce-detail {
+  .commerce-slider {
+    height: 300px;
+    .commerce-slider-img {
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .slider-slides .slider-slide {
+      width: 100%;
+    }
+  }
+
+  .bandeau {
+    text-align: justify;
+    margin-bottom: 50px;
+    height: 100px;
+    background-color: $dark_blue;
+
+    .title {
+      padding: 20px;
+      color: $light_grey;
+      margin-bottom: 10px;
+      h1 {
+        color: $light_grey;
+        font-size: 1.6em;
+        text-overflow: ellipsis;
+      }
+      .row {
+        text-align: center;
+        margin: 15px 0;
+        .button {
+          color: $light_grey;
+          border-radius: 100%;
+          width: 60px;
+          height: 60px;
+          border: 0 solid $light_grey;
+          background-color: $light_blue;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+          img {
+            margin-top: 10px;
+            padding-left: 2px;
+          }
+        }
+        .button:active {
+          box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+          transition-delay: 0s;
+        }
+      }
+    }
+  }
+
+  .row {
+    margin: 17px 0 !important;
+    padding: 0;
+  }
+
+  .inner_row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    height: 2cm;
+  }
+
+  .col25 {
+    display: inline-block;
+    height: 100%;
+    width: 25%;
+  }
+
+  .inner_col25 {
+    height: 100%;
+    width: 2cm;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .round {
+    display: block;
+    height: 100%;
+    width: 2cm;
+    max-width: 100%;
+    background-color: $light_blue;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+
+  .round img {
+    height: 100%;
+  }
+
+  #informations {
+    h4 {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+}
+
+.grey .round{/*
+  -webkit-filter: grayscale(1) brightness(1.2);
+  -moz-filter: grayscale(1) brightness(1.2);
+  -o-filter: grayscale(1) brightness(1.2);
+  -ms-filter: grayscale(1) brightness(1.2);
+  filter: grayscale(1) brightness(1.2);*/
+  background-color: #bfbfbf;
+}
+
+.no360 div img{
+  width: 100%!important;
+}
+
+.no360 .round{
+  opacity:0.6;
+}
+
+.www-icon {
+  background: url('../data/img/www.svg') center no-repeat;
+}
+
+.phone-icon {
+  background: url('../data/img/phone.svg') center no-repeat;
+}

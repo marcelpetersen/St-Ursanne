@@ -1,0 +1,18 @@
+<ion-view view-title="{{ 'PANORAMA_MENU_TITLE' | translate }}" class="panorama" cache-view="false">
+    <ion-nav-bar class="bar-stable bar-positive">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar>
+
+    <ion-content id="pano" tap-on>
+        <div otc-scripts scripts="scripts">
+        </div>
+    </ion-content>
+
+    <style>
+        div#pswp_replace {
+            z-index: 3000000000 !important;
+        }
+    </style>
+    <div id='pswp_replace'></div>
+</ion-view>

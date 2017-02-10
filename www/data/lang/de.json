@@ -1,0 +1,104 @@
+{
+  "POPUP_LANGUE_CONFIRMATION_TITRE": "Bestätigen",
+  "POPUP_LANGUE_CONFIRMATION_BOUTTON": "Ändern",
+  "POPUP_LOCALISATION_OUI": "Ja",
+  "POPUP_LOCALISATION_NON": "Nein",
+  "POPUP_LOCALISATION_TITRE": "Möchten Sie den Anschluss ans Internet zulassen ?",
+  "POPUP_LOCALISATION_CONTENU": "Damit erhaltenSie den Stadtplan mit Satellitenkarten und die Möglichkeit Wegstrecken zu den einzelnen Sehenswürdigkeiten fortlaufend anzuzeigen. Achten Sie bitte darauf, dass dies zusätzliche Kosten verursachen kann.",
+
+
+
+  "ACCUEIL_MENU_TITRE": "Empfang",
+  "ACCUEIL_TITRE": "Porrentruy",
+  "ACCUEIL_SVG": "Porrentruy_Titre_DE.svg",
+  "ACCUEIL_SOUSTITRE": "Entdecken Sie unsere Stadt",
+  "ACCUEIL_MENU_1": "Auszug aus der Geschichte",
+  "ACCUEIL_MENU_2": "Sehenswürdigkeiten",
+  "ACCUEIL_MENU_3": "Karte",
+  "ACCUEIL_MENU_4": "Weitere Entdeckungsmöglichkeiten",
+  "ACCUEIL_MENU_5": "Einstellungen",
+
+
+  "HISTOIRE_TITRE": "Hauptstadt des Fürstbistums",
+  "HISTOIRE_HISTOIRE_TITRE": "Geschichte",
+  "HISTOIRE_HISTOIRE_CONTENU_1": "Das Stadtgebiet von Pruntrut war bereits zur Römerzeit besiedelt, die ersten urkundlichen Erwähnungen des Städtchens entstanden allerdings erst zwischen 968 und 1148.",
+  "HISTOIRE_HISTOIRE_CONTENU_2": "Im 13. Jahrhundert erhob Rudolph von Habsburg Pruntrut zur freien Reichsstadt. Weil die Basler Bürger Anfang des 16. Jahrhunderts die Reformation durchsetzten, wählten die Basler Fürstbischöfe Pruntrut 1528 als ihren Sitz.",
+  "HISTOIRE_HISTOIRE_CONTENU_3": "Jakob Christoph Blarer von Wartensee, Fürstbischof von 1575 bis 1608 und Gegenreformator des Bistums, liess das 1558 bei einem Brand teilweise zerstörte Schloss wieder aufbauen. Er gründete zudem das Jesuitenkollegium, das heute als Kantonsschule dient. ",
+  "HISTOIRE_HISTOIRE_CONTENU_4": "Seine Nachfolger ermutigten Klöster und andere religiöse Institutionen sowie adlige Familien, in Pruntrut zu bauen. So wurden in der Hauptstadt des Bistums zahlreiche Adelshäuser errichtet.",
+  "HISTOIRE_HISTOIRE_CONTENU_5": "Im 18. Jahrhundert werden in der Stadt vier bemerkenswerte Barockgebäude gebaut die das Stadtbild beträchtlich prägen : Hôtel de Ville (Rathaus), Hôtel-Dieu (Burger- und Stadtspital), Hôtel des Halles (Markthaus) und Hôtel de Gléresse (Ligerz-Palast). Die Wohnviertel  zwischen Altstadt und Bahnhof entwickeln sich Ende des 19. Jahrhunderts im Jugendstil (Art nouveau)",
+
+  "HISTOIRE_DATES_TITRE": "Daten",
+  "HISTOIRE_DATES_CONTENU_1": "Der römisch-deutsche König Rudolph I. von Habsburg erhebt Pruntrut zur freien Reichsstadt.",
+  "HISTOIRE_DATES_CONTENU_2": "Der Bischof von Basel, Philipp von Gundelsheim, verlegt seinen Sitz offiziell von Basel nach Pruntrut.",
+  "HISTOIRE_DATES_CONTENU_3": "Fürstbischof Jakob Christoph Blarer von Wartensee rekatholisiert die Diözese Basel, bekämpft die Reformation energisch und setzt die Reformen des Konzils von Trient (1545‐1563) um.",
+  "HISTOIRE_DATES_CONTENU_4": "Im Dreissigjährigen Krieg wird Pruntrut ab 1634 während langer Jahre von den kriegsführenden Parteien besetzt.",
+  "HISTOIRE_DATES_CONTENU_5": "Aufstand der Bewohner des Fürstbistums. Einige der Anführer werden am 31. Oktober 1740 vor dem Rathaus hingerichtet, andere ins Exil geschickt oder zu Zwangsarbeit verurteilt.",
+  "HISTOIRE_DATES_CONTENU_6": "Volkszählung : Das Fürstbistum zählt 55’000 Einwohner, Pruntrut 2‘410.",
+  "HISTOIRE_DATES_CONTENU_7": "Das alte Bistum Basel wird von den französischen Truppen erobert. Fürstbischof Joseph Sigismund von Roggenbach flieht vor den anrückenden französischen Revolutionstruppen. Sein Fürstentum fällt an Frankreich. Von 1797 bis 1815 ist Pruntrut eine französische Stadt.",
+  "HISTOIRE_DATES_CONTENU_8": "Pruntrut ist die Präfektur des französischen Departements Mont-Terrible.",
+  "HISTOIRE_DATES_CONTENU_9": "Der Wiener Kongress übergibt das Fürstbistum Basel (jedoch ohne das Birseck, das zum Kanton Basel kommt) dem Kanton Bern als Ausgleich für die Gebiete Waadt und Aargau",
+  "HISTOIRE_DATES_CONTENU_10": "Gründung des Kantons Jura mit Delsberg als Hauptstadt.",
+
+
+
+  "LISTE_LIEUX_MENU_TITRE": "Sehenswürdigkeiten",
+  "LISTE_LIEUX_DISTANCE": "Sehenswürdigkeit in",
+
+
+
+  "LIEUX_DETAIL_MENU_TITLE": "Platz",
+  "LIEUX_DETAIL_TRIS_TITLE": "Sortieren",
+  "LIEUX_DETAIL_TRI_1": "Standardmäßig",
+  "LIEUX_DETAIL_TRI_2": "Nach dem Namen (A-Z)",
+  "LIEUX_DETAIL_TRI_3": "Nach dem Namen (Z-A)",
+  "LIEUX_DETAIL_TRI_4": "Nach Distanz (nah - fern)",
+  "LIEUX_DETAIL_TRI_5": "Nach Distanz (fern - nah)",
+  "LIEUX_DETAIL_FILTRES_TITLE": "Filter",
+  "LIEUX_DETAIL_FILTRE_1": "Ohne",
+  "LIEUX_DETAIL_FILTRE_2": "Mit Panorama",
+
+
+
+  "LIEU_DESCRIPTION": "Beschreibung",
+
+
+
+  "PANORAMA_MENU_TITLE": "Panorama",
+
+
+
+  "CARTE_MENU_TITLE": "Karte",
+  "CARTE_ERREUR_1_TITRE": "Fehler im Standortzugriff",
+  "CARTE_ERREUR_1_CONTENU": "Zugriff zum Standort nicht möglich. Prüfen Sie die Einstellung des GPS und versuchen Sie erneut.",
+  "CARTE_ERREUR_2_TITRE": "Fehler im Standortzugriff",
+  "CARTE_ERREUR_2_CONTENU": "Der Standortzugriff funktionniert ausserhalb von Pruntrut nicht.",
+  "CARTE_ERREUR_3_TITRE": "Konfigurieren Sie die Karte",
+  "CARTE_ERREUR_3_CONTENU": "Die Kartenanzeige kann geändert werden in der Menüleiste auf der Startseite oider durche einen Klick auf das Symbol oben rechts im Bild",
+  "CARTE_ERREUR_3_BOUTTON": "Einstellungen",
+  "CARTE_ITINERAIRE": "Reiseplan",
+
+
+
+  "DECOUVRIR_MENU_TITRE": "Entdecken",
+  "DECOUVRIR_TITRE": "Weitere Möglichkeiten Porrentruy zu entdecken",
+  "DECOUVRIR_CONTENU_1": "Für Jugendliche von 7 bis 14 Jahren mit der greifen Sie zur Broschüre «Ich entdecke Porrentruy».",
+  "DECOUVRIR_CONTENU_2": "Besonders für Familien geeignet : Der “Geheime Rundweg” führt Sie in verschiedene ungewöhnliche Orte.",
+  "DECOUVRIR_CONTENU_3": "Für Gruppen oder für Einzelpersonen, Führungen mit einem Stadtführer der Ihnen die reiche Geschichte der Stadt nahebringen wird.",
+  "DECOUVRIR_CONTENU_4": "Für Gruppen : Stadtbesichtigungen mit einem Stadtführer (empfohlen : 2 Stunden-Tour) ; Es sind verschiedene Themen möglich : Gebäude und Geschichte, Uhrenweg, Besichtigung eines Uhrenbetriebs. Mit Jura Tourisme abzusprechen",
+
+  "DECOUVRIR_ADRESSE_1_TITRE": "Gemeindeverwaltung",
+  "DECOUVRIR_ADRESSE_2_TITRE": "Jura Tourisme",
+  "DECOUVRIR_ADRESSE_3_TITRE": "Stadtmuseum",
+  "DECOUVRIR_ADRESSE_4_TITRE": "Naturhistorisches Museum und Botanischer Gaten",
+  "DECOUVRIR_ADRESSE_5_TITRE": "Jurassica",
+
+
+
+  "PARAMETRES_MENU_TITLE": "Einstellungen",
+  "PARAMETRES_SECTION_1_TITRE": "Geografische Karten",
+  "PARAMETRES_SECTION_1_TOGGLE": "Internet‐Anschluss zulassen",
+  "PARAMETRES_SECTION_1_CONTENU_1": "Anzeige von Satellitenkarten und Möglichkeit Wegstrecken zu den einzelnen Sehenswürdigkeiten fortlaufend anzuzeigen.",
+  "PARAMETRES_SECTION_1_CONTENU_2": "Bedingt einen aktiven Internet-Anschluss",
+
+  "PARAMETRES_SECTION_2_TITRE": "Sprache wählen"
+}
