@@ -1,6 +1,6 @@
 {
-  "name": "Porrentruy",
-  "app_id": "fe0959af",
+  "name": "St-Ursanne",
+  "app_id": "80803b1c",
   "gulpStartupTasks": [
     "sass",
     "watch"

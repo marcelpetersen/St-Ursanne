@@ -1,7 +1,7 @@
 {
-  "name": "Porrentruy",
-  "version": "1.0.0",
-  "description": "Application de visite de la ville de Porrentruy",
+  "name": "St-Ursanne",
+  "version": "0.0.1",
+  "description": "St-Ursanne, Perle du Jura",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.1.0",

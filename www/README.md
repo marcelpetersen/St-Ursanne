@@ -1,2 +1,2 @@
-#Visitez Porrentruy
-Visitez la ville de Porrentruy (Jura, CH) et découvrez ses sites les plus intéressants. Trouvez les lieux caractéristiques de la vieille ville, admirez les panoramas qui vous permettent de situer chaque lieu dans ses alentours immédiats. Orientez-vous à l’aide de la carte et grâce au GPS. Choisissez votre itinéraire de visite en fonction de vos intérêts et profitez des photos et de la réalité augmentée pour en apprendre plus.
+#Visitez St-Ursanne
+Visitez la ville ablématique du Jura, St-Ursanne. Au travers de cette application vous pourrez découvrir la ville médiévale et ses différents batiments grace à une carte interactive ainsi que plusieurs panoramas à 360 degrés !

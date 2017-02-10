@@ -1,22 +1,22 @@
 // Ionic Starter App
 // kick off the platform web client
-Ionic.io();
+//Ionic.io();
 
 // this will give you a fresh user or the previously saved 'current user'
-var user = Ionic.User.current();
+//var user = Ionic.User.current();
 
 // if the user doesn't have an id, you'll need to give it one.
-if (!user.id) {
+/*if (!user.id) {
     user.id = Ionic.User.anonymousId();
     // user.id = 'your-custom-user-id';
-}
+}*/
 
 //persist the user
-user.save();
+//user.save();
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic','ionic.service.core', /*'ui.router',*/ 'ionic.service.analytics', 'starter.controllers', 'starter.services','ngIOS9UIWebViewPatch', 'pascalprecht.translate'])
+angular.module('starter', ['ionic','ionic.service.core', 'ui.router', /*'ionic.service.analytics',*/ 'starter.controllers', 'starter.services','ngIOS9UIWebViewPatch', 'pascalprecht.translate'/*, 'ngRoute'*/])
 
 .config(['$ionicConfigProvider'/*, '$compileProvider'*/, function($ionicConfigProvider/*, $compileProvider*/) {
     //Force le placements des Tabs en bas peu importe l'OS
@@ -57,7 +57,7 @@ angular.module('starter', ['ionic','ionic.service.core', /*'ui.router',*/ 'ionic
             return 0;
     }
 }])
-
+/*
 .run(function($ionicPlatform, $ionicAnalytics) {
     $ionicPlatform.ready(function() {
         $ionicAnalytics.register();
@@ -74,7 +74,7 @@ angular.module('starter', ['ionic','ionic.service.core', /*'ui.router',*/ 'ionic
         }
     });
 })
-
+*/
 //.config(['$ionicAutoTrackProvider', function($ionicAutoTrackProvider) {
 //    // Don't track which elements the user clicks on.
 //    $ionicAutoTrackProvider.disableTracking('Tap');

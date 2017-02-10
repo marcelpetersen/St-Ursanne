@@ -1,11 +1,13 @@
 {
-  "name": "Porrentruy",
+  "name": "St-Ursanne",
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.0.0-rc.1",
     "ionic-platform-web-client": "~0.2.1",
     "platform": "~1.3.0",
     "platform.js": "platform#~1.3.0",
-    "plugin": "~3.1.0"
+    "plugin": "~3.1.0",
+    "ionic-service-core": "^0.1.10",
+    "ionic-service-analytics": "^0.2.5"
   }
 }
